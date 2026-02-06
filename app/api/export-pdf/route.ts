@@ -25,9 +25,11 @@ export async function POST(request: Request) {
         "Content-Length": String(bytes.byteLength),
       },
     });
-  } catch {
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : "Nepodařilo se vyexportovat PDF.";
+    console.error("[export-pdf] Chyba:", e);
     return NextResponse.json(
-      { error: "Nepodařilo se vyexportovat PDF." },
+      { error: msg },
       { status: 500 }
     );
   }

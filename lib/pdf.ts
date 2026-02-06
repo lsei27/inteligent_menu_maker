@@ -1,7 +1,7 @@
 /**
  * Generování PDF menu pomocí pdf-lib – podpora české diakritiky
  */
-import { readFileSync } from "fs";
+import { readFileSync, existsSync } from "fs";
 import { join } from "path";
 import { PDFDocument, rgb } from "pdf-lib";
 import type { GeneratedMenu } from "./types";
@@ -12,7 +12,10 @@ const MARGIN = 20 * MM_TO_PT;
 const PAGE_WIDTH = 210 * MM_TO_PT;
 const PAGE_HEIGHT = 297 * MM_TO_PT;
 
-async function getFont(pdfDoc: PDFDocument) {
+const DEJAVU_FONT_URL =
+  "https://unpkg.com/dejavu-fonts-ttf@2.37.3/ttf/DejaVuSans.ttf";
+
+async function getFontBytes(): Promise<Uint8Array> {
   const fontPath = join(
     process.cwd(),
     "node_modules",
@@ -20,13 +23,22 @@ async function getFont(pdfDoc: PDFDocument) {
     "ttf",
     "DejaVuSans.ttf"
   );
-  const bytes = new Uint8Array(readFileSync(fontPath));
+  if (existsSync(fontPath)) {
+    return new Uint8Array(readFileSync(fontPath));
+  }
+  const res = await fetch(DEJAVU_FONT_URL);
+  if (!res.ok) throw new Error("Nepodařilo se načíst font pro PDF");
+  return new Uint8Array(await res.arrayBuffer());
+}
+
+async function loadAndEmbedFont(pdfDoc: PDFDocument) {
+  const bytes = await getFontBytes();
   return pdfDoc.embedFont(bytes);
 }
 
 export async function generateMenuPDF(menu: GeneratedMenu): Promise<Buffer> {
   const pdfDoc = await PDFDocument.create();
-  const font = await getFont(pdfDoc);
+  const font = await loadAndEmbedFont(pdfDoc);
 
   let page = pdfDoc.addPage([PAGE_WIDTH, PAGE_HEIGHT]);
   let y = PAGE_HEIGHT - MARGIN;

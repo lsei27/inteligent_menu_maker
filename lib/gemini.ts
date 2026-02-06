@@ -87,8 +87,9 @@ Každý den MINIMÁLNĚ 1 jídlo s protein="vege". Používej POUZE protein z vs
 ### 2. DIVERZITA MASA (KRITICKÉ)
 V 5 hlavních jídlech jednoho dne MAXIMÁLNĚ 2× stejný typ proteinu.
 Typy: vege, chicken, pork, beef, fish, mixed – KAŽDÝ se počítá!
-- Špatně: 3× mixed nebo 3× chicken
-- Dobře: max 2× chicken, max 2× pork, 1× vege (např.)
+- Špatně: 3× mixed, 3× chicken, 3× cokoliv
+- Dobře: vyvážená kombinace – např. 1× vege, 1× chicken, 1× pork, 1× beef, 1× mixed
+- DŮLEŽITÉ: "mixed" používej SPÍŠE VÝJIMEČNĚ. Preferuj konkrétní typy (vege, chicken, pork, beef, fish). Max 1× mixed na den, lépe 0×.
 
 ### 3. BEZ OPAKOVÁNÍ V TÝDNU
 Žádné jídlo (hlavní ani polévka) se NESMÍ opakovat v rámci celého týdne. Každý recept max 1×.
@@ -133,7 +134,7 @@ Pravidla 1–5 mají ABSOLUTNÍ přednost. Prodejnost použij JEN při výběru 
   ]
 }
 
-PŘED ODESLÁNÍM OVĚŘ: (a) každý den max 2× stejný protein v 5 jídlech, (b) žádné jídlo se neopakuje v týdnu, (c) žádná podobná jídla v jednom dni. ODPOVĚZ POUZE VALIDNÍM JSON OBJEKTEM.`;
+PŘED ODESLÁNÍM OVĚŘ: (a) každý den max 2× stejný protein, max 1× mixed, (b) žádné jídlo se neopakuje v týdnu, (c) žádná podobná jídla v jednom dni, (d) protein z vstupních dat – např. "Risotto se sýrem Feta" je vege. ODPOVĚZ POUZE VALIDNÍM JSON OBJEKTEM.`;
 }
 
 function parseGeminiResponse(text: string): GeneratedMenu {

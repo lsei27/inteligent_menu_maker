@@ -13,7 +13,7 @@ const SALES_FILE = path.join(BASE, "export_recipe_sales.xlsx");
 // Indikátory masa – pokud jsou v názvu, jídlo NENÍ vegetariánské
 const MEAT_INDICATORS = /uzen|slanina|šunka|klobás|maso|řízek|bůček|vepř|hověz|kuř|krůt|ryb|losos|kapr|drůbež/i;
 
-// Heuristiky pro protein – POŘADÍ DŮLEŽITÉ (maso před vege)
+// Heuristiky pro protein – POŘADÍ DŮLEŽITÉ (maso před vege, vege před mixed)
 const PROTEIN_PATTERNS = [
   { regex: /kuř(e|ecí|etě|ec)|drůbež|krůt/i, value: "chicken" },
   {
@@ -24,31 +24,43 @@ const PROTEIN_PATTERNS = [
   { regex: /hověz|steak|guláš|svíčková|řízek hověz/i, value: "beef" },
   { regex: /ryb|losos|tresk|kapr|tilapi|pangasius/i, value: "fish" },
   {
-    regex: /sýrový řízek|smažený sýr/i,
-    value: "vege",
-  },
-  {
     regex: /řízek|holandský|vídeňský|smažený řízek/i,
     value: "pork",
   },
+  // Vegetariánská jídla (PŘED mixed fallback)
+  { regex: /sýrový řízek|smažený sýr/i, value: "vege" },
   {
     regex:
       /tvaroh|tofu|vege|vegetarián|karbanátky vege|plack|palačink|omlet/i,
     value: "vege",
   },
+  // Risotto/rizoto se sýrem, zeleninou, houbami – BEZ masa = vege
   {
-    regex: /sýr.*salát|sýrová|mozzarella|ricotta/i,
+    regex:
+      /(risotto|rizoto).*(sýr|feta|koz|houb|zelenin|květák|dýn|bulgur|kroup|pohank)/i,
     value: "vege",
   },
   {
     regex:
-      /zelenin|špenát|houb|těstovin|noky|gnochi|rizoto/i,
+      /pohankové risotto|květákové risotto|portobello risotto|bulgurové risotto|krémové bulgurové risotto|kroupové risotto/i,
     value: "vege",
   },
+  // Těstoviny s omáčkou bez masa
   {
-    regex: /čočk|fazole/i,
+    regex: /(spaghetti|špagety|penne).*(aglio|olio|sýrovou|kozim sýrem|dýní)/i,
     value: "vege",
   },
+  { regex: /aglio olio|špagety se sýrovou omáčkou/i, value: "vege" },
+  { regex: /penne s (dýní|kozím sýrem)/i, value: "vege" },
+  // Tortilla/sýr
+  { regex: /tortil.*(třemi druhy sýr|sýr)/i, value: "vege" },
+  { regex: /sýr.*salát|sýrová|mozzarella|ricotta|rozpečený kozí sýr/i, value: "vege" },
+  {
+    regex:
+      /zelenin|špenát|houb|těstovin|noky|gnochi|(rizoto|risotto)/i,
+    value: "vege",
+  },
+  { regex: /čočk|fazole/i, value: "vege" },
 ];
 
 function inferProtein(name) {
