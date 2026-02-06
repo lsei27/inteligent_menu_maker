@@ -31,7 +31,7 @@ export default function HistoryPage() {
   const [error, setError] = useState<string | null>(null);
 
   const loadHistory = () => {
-    fetch("/api/get-history")
+    fetch("/api/get-history", { cache: "no-store" })
       .then((r) => r.json())
       .then((d) => setHistory(d.history ?? []))
       .catch(() => setHistory([]));

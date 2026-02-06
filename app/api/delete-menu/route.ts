@@ -23,6 +23,7 @@ export async function DELETE(request: Request) {
 
     const ok = await deleteMenuEntry(id);
     if (!ok) {
+      console.error("[delete-menu] deleteMenuEntry vrátilo false pro id:", id);
       return NextResponse.json(
         { error: "Nepodařilo se smazat záznam." },
         { status: 500 }
@@ -30,7 +31,8 @@ export async function DELETE(request: Request) {
     }
 
     return NextResponse.json({ ok: true });
-  } catch {
+  } catch (e) {
+    console.error("[delete-menu] Chyba:", e);
     return NextResponse.json(
       { error: "Nepodařilo se smazat záznam." },
       { status: 500 }
