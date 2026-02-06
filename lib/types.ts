@@ -15,6 +15,8 @@ export interface MasterRecipe {
   heaviness: HeavinessType;
   protein: ProteinType;
   season: SeasonType;
+  /** Počet prodaných porcí za období (z export_recipe_sales.xlsx) */
+  sales_count?: number;
 }
 
 export interface MasterSoup {
@@ -22,6 +24,8 @@ export interface MasterSoup {
   name: string;
   heaviness: HeavinessType;
   season: SeasonType;
+  /** Počet prodaných porcí za období (z export_recipe_sales.xlsx) */
+  sales_count?: number;
 }
 
 export interface WeatherDay {

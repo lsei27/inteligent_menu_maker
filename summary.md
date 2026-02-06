@@ -33,11 +33,11 @@ Fullstack webová aplikace pro generování týdenního poledního menu restaura
   utils.ts              # Pomocné funkce
   types.ts              # TypeScript typy
 /data
-  master_recipes.json   # Recepty (z Excelu)
+  master_recipes.json   # Recepty + sales_count (recipe_list + export_recipe_sales)
 /supabase
   schema.sql            # SQL pro vytvoření tabulek
 /scripts
-  build-master-recipes.js  # Konverze Excel → JSON
+  build-master-recipes.js  # recipe_list.xlsx + export_recipe_sales.xlsx (sloupec Porcí) → JSON
   migrate-to-supabase.js   # Migrace JSON → Supabase
 ```
 
@@ -69,11 +69,13 @@ Aplikace běží na http://localhost:3000
 
 ## Regenerace master_recipes.json
 
-Při změně Excel souborů:
+Při změně Excel souborů (`recipe_list.xlsx` nebo `export_recipe_sales.xlsx`):
 
 ```bash
 npm run build-recipes
 ```
+
+Prodejnost (`sales_count` z export_recipe_sales, sloupec Porcí) ovlivňuje výběr jídel – Gemini preferuje populárnější jídla a vyhýbá se těm s nulovým či velmi nízkým prodejem.
 
 ## Vercel deployment
 

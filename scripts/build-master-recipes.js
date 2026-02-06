@@ -8,6 +8,7 @@ const path = require("path");
 
 const BASE = path.join(__dirname, "..");
 const RECIPE_FILE = path.join(BASE, "recipe_list.xlsx");
+const SALES_FILE = path.join(BASE, "export_recipe_sales.xlsx");
 
 // Indikátory masa – pokud jsou v názvu, jídlo NENÍ vegetariánské
 const MEAT_INDICATORS = /uzen|slanina|šunka|klobás|maso|řízek|bůček|vepř|hověz|kuř|krůt|ryb|losos|kapr|drůbež/i;
@@ -108,7 +109,45 @@ function cleanName(name) {
     .trim();
 }
 
+/** Normalizace názvu pro párování s exportem prodejů */
+function normalizeForMatch(name) {
+  return String(name || "")
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+/** Načte mapu prodejů: normalizovaný název -> počet prodaných porcí */
+function loadSalesMap() {
+  const map = new Map();
+  if (!fs.existsSync(SALES_FILE)) return map;
+  try {
+    const wb = XLSX.readFile(SALES_FILE);
+    const ws = wb.Sheets["Export prodejů kalkulací"];
+    if (!ws) return map;
+    const rows = XLSX.utils.sheet_to_json(ws, { header: 1 });
+    if (rows.length < 2) return map;
+    const headers = rows[0];
+    const nameIdx = headers.indexOf("Kalkulace");
+    const portionsIdx = headers.indexOf("Porcí");
+    if (nameIdx < 0 || portionsIdx < 0) return map;
+    for (let i = 1; i < rows.length; i++) {
+      const row = rows[i];
+      const name = row[nameIdx];
+      const portions = parseInt(row[portionsIdx], 10);
+      if (!name || isNaN(portions)) continue;
+      const key = normalizeForMatch(name);
+      const prev = map.get(key) ?? 0;
+      map.set(key, prev + portions);
+    }
+  } catch (err) {
+    console.warn("[build-master-recipes] Nelze načíst prodeje:", err.message);
+  }
+  return map;
+}
+
 function main() {
+  const salesMap = loadSalesMap();
   const wb = XLSX.readFile(RECIPE_FILE);
   const ws = wb.Sheets["Seznam kalkulací"];
   const rows = XLSX.utils.sheet_to_json(ws, { header: 1 });
@@ -143,6 +182,11 @@ function main() {
     const clean = cleanName(name);
     if (!clean) continue;
 
+    const sales_count =
+      salesMap.get(normalizeForMatch(name)) ??
+      salesMap.get(normalizeForMatch(clean + "-s")) ??
+      0;
+
     const entry = {
       id: String(id),
       name: clean,
@@ -152,6 +196,7 @@ function main() {
       heaviness: inferHeaviness(name, isSoup),
       protein: inferProteinSafe(name),
       season: inferSeason(name),
+      sales_count,
     };
 
     if (isSoup) {
@@ -160,6 +205,7 @@ function main() {
         name: entry.name,
         heaviness: entry.heaviness,
         season: entry.season,
+        sales_count,
       });
     } else {
       recipes.push(entry);

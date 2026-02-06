@@ -35,6 +35,7 @@ function buildPrompt(
       protein: r.protein,
       season: r.season,
       margin: r.price && r.cost ? r.price - r.cost / 1.12 : 0,
+      sales_count: r.sales_count ?? 0,
     })),
     null,
     0
@@ -45,6 +46,7 @@ function buildPrompt(
       name: s.name,
       heaviness: s.heaviness,
       season: s.season,
+      sales_count: s.sales_count ?? 0,
     })),
     null,
     0
@@ -86,6 +88,7 @@ Vygeneruj kompletní menu na pracovní týden (Po-Pá). Data weather mají datum
 3. BEZ OPAKOVÁNÍ: Žádné jídlo (hlavní ani polévka) se NESMÍ opakovat v týdnu
 4. HISTORIE 6 TÝDNŮ: NEPOUŽÍVEJ jídla z historyLast8Weeks
 5. HISTORIE SPECIALIT 8 TÝDNŮ: NEPOUŽÍVEJ speciality z specialtyHistory
+6. PRODEJNOST (sales_count): Preferuj jídla s vyšším sales_count (prodalo se více porcí). Vyhýbej se jídlům se sales_count=0 nebo velmi nízkým (<10) – ty se téměř neprodávala. Při stejném splnění pravidel vyber populárnější jídla.
 
 ## Pravidla počasí → těžkost
 - Nad 25°C: 60% light, 30% medium, 10% heavy
