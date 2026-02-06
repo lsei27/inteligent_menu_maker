@@ -1,17 +1,12 @@
 import { NextResponse } from "next/server";
-import { readJsonFile } from "@/lib/utils";
+import { masterRecipes, masterSoups } from "@/lib/master-recipes";
 import { getCustomDishes } from "@/lib/db";
 import { supabase } from "@/lib/supabase";
 import type { MasterRecipe } from "@/lib/types";
 
 export async function GET() {
   try {
-    const data = await readJsonFile<{
-      recipes: MasterRecipe[];
-      soups: unknown[];
-    }>("data/master_recipes.json");
-
-    let recipes = [...(data.recipes ?? [])];
+    let recipes = [...masterRecipes];
 
     if (supabase) {
       const custom = await getCustomDishes();
@@ -27,7 +22,7 @@ export async function GET() {
 
     return NextResponse.json({
       recipes,
-      soups: data.soups ?? [],
+      soups: masterSoups,
     });
   } catch {
     return NextResponse.json(

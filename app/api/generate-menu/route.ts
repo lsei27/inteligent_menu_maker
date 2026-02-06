@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { readJsonFile } from "@/lib/utils";
+import { masterRecipes, masterSoups } from "@/lib/master-recipes";
 import { getHistoryForGeneration } from "@/lib/db";
 import { fetchWeatherForNextWeek, getDefaultWeather } from "@/lib/weather";
 import { generateMenuWithGemini } from "@/lib/gemini";
@@ -8,8 +8,6 @@ import {
   getWorkdaysFromMonday,
   formatDateISO,
 } from "@/lib/utils";
-import type { MasterRecipe, MasterSoup } from "@/lib/types";
-
 async function getHistoryDishIds(): Promise<string[]> {
   try {
     const history = await getHistoryForGeneration();
@@ -51,20 +49,17 @@ export async function POST() {
     }
 
     console.log("[generate-menu] Načítám recepty a počasí...");
-    const [recipesData, weather] = await Promise.all([
-      readJsonFile<{ recipes: MasterRecipe[]; soups: MasterSoup[] }>(
-        "data/master_recipes.json"
-      ),
-      fetchWeatherForNextWeek().catch(() => getDefaultWeather()),
-    ]);
+    const weather = await fetchWeatherForNextWeek().catch(() =>
+      getDefaultWeather()
+    );
 
     const historyIds = await getHistoryDishIds();
     const specialtyHistory = await getSpecialtyHistory();
 
     console.log("[generate-menu] Volám Gemini API (může trvat 10-15 s)...");
     const menu = await generateMenuWithGemini(
-      recipesData.recipes,
-      recipesData.soups,
+      masterRecipes,
+      masterSoups,
       weather,
       historyIds,
       specialtyHistory
