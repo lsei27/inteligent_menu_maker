@@ -1,0 +1,5956 @@
+{
+  "recipes": [
+    {
+      "id": "2161",
+      "name": "1/4 Pečené kuře",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.17,
+      "price": 139,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "winter"
+    },
+    {
+      "id": "4154",
+      "name": "Bageta",
+      "category": "Sou100 - obědové menu",
+      "cost": 26.7,
+      "price": 79,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3763",
+      "name": "Biftečky v rajčatové omáčce",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.18,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "9708",
+      "name": "bram.noky s bolonskou",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.07,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "3097",
+      "name": "Bramborová roláda s uzeným, zelí - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 38.33,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "7336",
+      "name": "bramborové noky brynza slanina",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.98,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "7310",
+      "name": "bramborové noky houbové ragú",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.59,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "7288",
+      "name": "bramborové noky pomodoro",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.68,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "1764",
+      "name": "Bramborové noky s  špenátem",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.27,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "7527",
+      "name": "bramborové noky s kuřecím a brokolicí",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.76,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "9446",
+      "name": "bramborové noky s kuřecím a sýrovou",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.3,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "8688",
+      "name": "bramborové noky se slaninou a rajčaty",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.62,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "vege",
+      "season": "summer"
+    },
+    {
+      "id": "7218",
+      "name": "bramborové noky se špenátem",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.73,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "2958",
+      "name": "bramborové noky se zelím",
+      "category": "Sou100 - obědové menu",
+      "cost": 36.53,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "7923",
+      "name": "bramborové noky sýrová omáčka ořechy",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.28,
+      "price": 145,
+      "heaviness": "heavy",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "3355",
+      "name": "Brokolicová s ořechy- s",
+      "category": "Sou100 - obědové menu",
+      "cost": 12.11,
+      "price": 39,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7292",
+      "name": "buček na medu",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.37,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "9609",
+      "name": "burger sezam",
+      "category": "Sou100 - obědové menu",
+      "cost": 61.17,
+      "price": 239,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3578",
+      "name": "Burritos",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.21,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "4013",
+      "name": "Buřtgulaš",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.61,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2850",
+      "name": "Buřty na pivě",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.34,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "5041",
+      "name": "Carbonara",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.52,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "8872",
+      "name": "cizrnové kari",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.13,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2774",
+      "name": "Club sandwich",
+      "category": "Sou100 - obědové menu",
+      "cost": 66.59,
+      "price": 199,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "1761",
+      "name": "Cmunda po kaplicku",
+      "category": "Sou100 - obědové menu",
+      "cost": 33.37,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2212",
+      "name": "couscous",
+      "category": "Sou100 - obědové menu",
+      "cost": 52.67,
+      "price": 165,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "9394",
+      "name": "couscous s kuřecím masem",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.43,
+      "price": 159,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "8600",
+      "name": "cuketové placičky s bramborem",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.57,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2043",
+      "name": "Curry polévka s cuketou",
+      "category": "Sou100 - obědové menu",
+      "cost": 11.27,
+      "price": 39,
+      "heaviness": "light",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3096",
+      "name": "Česnekový krém - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 10.8,
+      "price": 39,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "1834",
+      "name": "Čevabčiči",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.48,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "8789",
+      "name": "čočka na kyselo s uzením",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.01,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3029",
+      "name": "Čočka na kyselo se šunkou a vejcem",
+      "category": "Sou100 - obědové menu",
+      "cost": 38.51,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "9945",
+      "name": "D- losos salát s lososem",
+      "category": "Sou100 - obědové menu",
+      "cost": 35.73,
+      "price": 195,
+      "heaviness": "light",
+      "protein": "fish",
+      "season": "summer"
+    },
+    {
+      "id": "6566",
+      "name": "Dalmátské čufty",
+      "category": "Sou100 - obědové menu",
+      "cost": 38.31,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3881",
+      "name": "Dhal s krůtím masem",
+      "category": "Sou100 - obědové menu",
+      "cost": 57.99,
+      "price": 135,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "8599",
+      "name": "drůbeží kaldoun",
+      "category": "Sou100 - obědové menu",
+      "cost": 12.05,
+      "price": 39,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "2896",
+      "name": "Drůbeží rizoto, okurka - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.29,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "summer"
+    },
+    {
+      "id": "3092",
+      "name": "Drůbeží vývar s masem - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 14.26,
+      "price": 39,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3099",
+      "name": "Dukátové buchtičky- s",
+      "category": "Sou100 - obědové menu",
+      "cost": 34.65,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "4529",
+      "name": "Dušené hovězí, po italsku",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.13,
+      "price": 175,
+      "heaviness": "medium",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "9378",
+      "name": "fazolový salát s vejcem",
+      "category": "Sou100 - obědové menu",
+      "cost": 36.2,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "2577",
+      "name": "Fish and Chips",
+      "category": "Sou100 - obědové menu",
+      "cost": 48.39,
+      "price": 169,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2894",
+      "name": "Fish-chips",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.65,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2574",
+      "name": "Francouzské brambory",
+      "category": "Sou100 - obědové menu",
+      "cost": 37.67,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "4213",
+      "name": "Frankfurtská pečeně- s",
+      "category": "Sou100 - obědové menu",
+      "cost": 58.26,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "winter"
+    },
+    {
+      "id": "9593",
+      "name": "Fusili s rajčaty, olivami a quanciale-",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.35,
+      "price": 155,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "7167",
+      "name": "Gnocchi pomodoro s kousky panenky",
+      "category": "Sou100 - obědové menu",
+      "cost": 57.05,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "5931",
+      "name": "Gnocchi pomodoro s kuřecím masem",
+      "category": "Sou100 - obědové menu",
+      "cost": 49.93,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "2567",
+      "name": "Gnocchi s brokolicí a pancetou",
+      "category": "Sou100 - obědové menu",
+      "cost": 59.08,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7074",
+      "name": "Gnocchi s houbovým ragu",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.96,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "1850",
+      "name": "Gnocchi s krémovými rajčaty",
+      "category": "Sou100 - obědové menu",
+      "cost": 54.1,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "6983",
+      "name": "Gnocchi s kuřecím masem a brokolicí",
+      "category": "Sou100 - obědové menu",
+      "cost": 52.31,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3880",
+      "name": "Gnocchi s kuřecím masem a špenátem",
+      "category": "Sou100 - obědové menu",
+      "cost": 52.31,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "2169",
+      "name": "Gnocchi s pancettou a brokolicí",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.02,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6326",
+      "name": "Gnocchi s pikantní klobáskou",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.6,
+      "price": 119,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "5047",
+      "name": "Gnocchi s portobellem a baby špenátem",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.38,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "4768",
+      "name": "Gnocchi s rajčatovým pestem",
+      "category": "Sou100 - obědové menu",
+      "cost": 54.89,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "2162",
+      "name": "Gnocchi s rajčaty a kousky panenky",
+      "category": "Sou100 - obědové menu",
+      "cost": 58.29,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "5662",
+      "name": "Gnocchi s rajčaty, pikantní klobáskou a rukolou",
+      "category": "Sou100 - obědové menu",
+      "cost": 48.49,
+      "price": 139,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "summer"
+    },
+    {
+      "id": "2654",
+      "name": "Gnocchi s řepným pyré a panenkou",
+      "category": "Sou100 - obědové menu",
+      "cost": 48.78,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "4017",
+      "name": "Gnocchi s trhaným vepřovým",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.52,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "5969",
+      "name": "Gnocchi s uzeným lososem",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.15,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "5039",
+      "name": "Gnocchi se hráškem a sušenou šunkou",
+      "category": "Sou100 - obědové menu",
+      "cost": 54.07,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3251",
+      "name": "Gnocchi se sýrovou omáčkou a kuřecím masem",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.98,
+      "price": 145,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "8295",
+      "name": "gril zelenina s kuřecím masem",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.65,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "chicken",
+      "season": "summer"
+    },
+    {
+      "id": "5240",
+      "name": "Grilovaná šunka",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.03,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "summer"
+    },
+    {
+      "id": "11891",
+      "name": "grilovaná zelenina, panenka",
+      "category": "Sou100 - obědové menu",
+      "cost": 61.94,
+      "price": 205,
+      "heaviness": "light",
+      "protein": "vege",
+      "season": "summer"
+    },
+    {
+      "id": "3349",
+      "name": "Grilovaný hermelín se zálivkou",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.76,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "6283",
+      "name": "Guláš oběd zabijačka",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.4,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "beef",
+      "season": "winter"
+    },
+    {
+      "id": "2724",
+      "name": "Guláš",
+      "category": "Sou100 - obědové menu",
+      "cost": 55.63,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "beef",
+      "season": "winter"
+    },
+    {
+      "id": "8206",
+      "name": "halloumi s gril zeleninou",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.64,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "vege",
+      "season": "summer"
+    },
+    {
+      "id": "3090",
+      "name": "Hamburger s kuřecími stripsy -S",
+      "category": "Sou100 - obědové menu",
+      "cost": 48.1,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "2619",
+      "name": "Hamburkská vepřová plec",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.78,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3606",
+      "name": "Holandský řízek se sýrem",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.84,
+      "price": 154,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "1706",
+      "name": "Hovězí  rump steak se šunkou a vejcem",
+      "category": "Sou100 - obědové menu",
+      "cost": 64.66,
+      "price": 169,
+      "heaviness": "medium",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "3210",
+      "name": "Hovězí cassoulet s klobásou a fazolemi",
+      "category": "Sou100 - obědové menu",
+      "cost": 51.3,
+      "price": 129,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "2726",
+      "name": "Hovězí karabáček",
+      "category": "Sou100 - obědové menu",
+      "cost": 58.55,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "7290",
+      "name": "hovězí krk křenova",
+      "category": "Sou100 - obědové menu",
+      "cost": 61.27,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "7962",
+      "name": "hovězí krk po cikánsku",
+      "category": "Sou100 - obědové menu",
+      "cost": 55.26,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "3098",
+      "name": "hovezí krk znojemská, rýže- s",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.79,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7220",
+      "name": "hovězí krk znojemská",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.79,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "2897",
+      "name": "Hovězí krk, koprová omáčka - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 48.51,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "2409",
+      "name": "Hovězí maso, křenová omáčka",
+      "category": "Sou100 - obědové menu",
+      "cost": 62.12,
+      "price": 129,
+      "heaviness": "heavy",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "2488",
+      "name": "Hovězí maso, rajská omáčka",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.92,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "7651",
+      "name": "hovězí na česneku špenát",
+      "category": "Sou100 - obědové menu",
+      "cost": 52.04,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "3172",
+      "name": "Hovězí na houbach - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.53,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "4181",
+      "name": "Hovězí na pepři",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.28,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "3721",
+      "name": "Hovězí na zázvoru",
+      "category": "Sou100 - obědové menu",
+      "cost": 60.84,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "3607",
+      "name": "Hovězí pečeně debrecínská",
+      "category": "Sou100 - obědové menu",
+      "cost": 65.23,
+      "price": 129,
+      "heaviness": "heavy",
+      "protein": "beef",
+      "season": "winter"
+    },
+    {
+      "id": "1844",
+      "name": "Hovězí pečeně na česneku",
+      "category": "Sou100 - obědové menu",
+      "cost": 61.89,
+      "price": 129,
+      "heaviness": "heavy",
+      "protein": "beef",
+      "season": "winter"
+    },
+    {
+      "id": "2803",
+      "name": "Hovězí pečeně na víně s švestkách",
+      "category": "Sou100 - obědové menu",
+      "cost": 53.59,
+      "price": 135,
+      "heaviness": "heavy",
+      "protein": "beef",
+      "season": "winter"
+    },
+    {
+      "id": "3244",
+      "name": "Hovězí roláda, fazolky, grenaille - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 59.84,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "2338",
+      "name": "Hovězí roštěná vídeňská",
+      "category": "Sou100 - obědové menu",
+      "cost": 88.26,
+      "price": 199,
+      "heaviness": "medium",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "2569",
+      "name": "Hovězí roštěná, pepřová omáčka",
+      "category": "Sou100 - obědové menu",
+      "cost": 60.04,
+      "price": 159,
+      "heaviness": "heavy",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "6782",
+      "name": "Hovězí vývar s játrovou rýží",
+      "category": "Sou100 - obědové menu",
+      "cost": 14.58,
+      "price": 39,
+      "heaviness": "medium",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "2946",
+      "name": "Hrachová kaše, uzený bok",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.36,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3445",
+      "name": "Hrachová s uzeným masem - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 12.9,
+      "price": 39,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3983",
+      "name": "Hráškové risotto s kuřecím masem",
+      "category": "Sou100 - obědové menu",
+      "cost": 51.92,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "2849",
+      "name": "Hrstková",
+      "category": "Sou100 - obědové menu",
+      "cost": 0,
+      "price": 39,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6195",
+      "name": "Huderova klobása, bramborová kaše",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.95,
+      "price": 139,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "5405",
+      "name": "Husarská roláda br kaše",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.41,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2172",
+      "name": "Chilli con carne",
+      "category": "Sou100 - obědové menu",
+      "cost": 54.21,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3849",
+      "name": "Chilli guláš",
+      "category": "Sou100 - obědové menu",
+      "cost": 33.75,
+      "price": 135,
+      "heaviness": "heavy",
+      "protein": "beef",
+      "season": "winter"
+    },
+    {
+      "id": "3451",
+      "name": "Chlebová polévka - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 17.84,
+      "price": 39,
+      "heaviness": "light",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3534",
+      "name": "Jambalaya",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.24,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "10532",
+      "name": "játra na cibulce",
+      "category": "Sou100 - obědové menu",
+      "cost": 31.69,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "5691",
+      "name": "Jelení ragu, krokety",
+      "category": "Sou100 - obědové menu",
+      "cost": 79.63,
+      "price": 169,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6012",
+      "name": "Jitrnice",
+      "category": "Sou100 - obědové menu",
+      "cost": 54.68,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2725",
+      "name": "Jitrnicový prejt, vařený brambor",
+      "category": "Sou100 - obědové menu",
+      "cost": 52.01,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3299",
+      "name": "Kachní casserole s kořenovou zeleninou",
+      "category": "Sou100 - obědové menu",
+      "cost": 59.55,
+      "price": 159,
+      "heaviness": "light",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "2729",
+      "name": "Kachní prso s vlažným salátem z černé čočky",
+      "category": "Sou100 - obědové menu",
+      "cost": 54.74,
+      "price": 159,
+      "heaviness": "light",
+      "protein": "vege",
+      "season": "summer"
+    },
+    {
+      "id": "4858",
+      "name": "Kapustové karbanátky",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.94,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6608",
+      "name": "Kapustový karbanátek",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.76,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "9151",
+      "name": "karbanátky z červené řepy",
+      "category": "Sou100 - obědové menu",
+      "cost": 35.18,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "9665",
+      "name": "kaše polenta",
+      "category": "Sou100 - obědové menu",
+      "cost": 35.12,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "5241",
+      "name": "Knedlíky s vejci a klobásou",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.15,
+      "price": 139,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3929",
+      "name": "Koprová omáčka",
+      "category": "Sou100 - obědové menu",
+      "cost": 49.25,
+      "price": 139,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3351",
+      "name": "kralicí soté",
+      "category": "Sou100 - obědové menu",
+      "cost": 59.96,
+      "price": 175,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3393",
+      "name": "Králík na smetaně, knedlík - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 32.11,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "5460",
+      "name": "Krém z tuřínu",
+      "category": "Sou100 - obědové menu",
+      "cost": 9.84,
+      "price": 39,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3981",
+      "name": "Krémová fregola sarda",
+      "category": "Sou100 - obědové menu",
+      "cost": 52.83,
+      "price": 125,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "5021",
+      "name": "Krémové bulgurové risotto",
+      "category": "Sou100 - obědové menu",
+      "cost": 35.38,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6265",
+      "name": "Krémové penne s panenkou a houbovým ragú",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.17,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "5050",
+      "name": "Krémové penne s pikantní klobáskou",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.7,
+      "price": 145,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "6328",
+      "name": "Krémové spaghetti s avokádem a kuřecím masem",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.3,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "8350",
+      "name": "Krevety špagety",
+      "category": "Sou100 - obědové menu",
+      "cost": 66.27,
+      "price": 215,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6318",
+      "name": "Kroupové risotto",
+      "category": "Sou100 - obědové menu",
+      "cost": 33.67,
+      "price": 155,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "5968",
+      "name": "Kroupové risotto s kozím sýrem",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.52,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "8168",
+      "name": "KROUPOVÉ rizoto s portobellem",
+      "category": "Sou100 - obědové menu",
+      "cost": 34.5,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "3529",
+      "name": "Krupeto",
+      "category": "Sou100 - obědové menu",
+      "cost": 48.85,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3912",
+      "name": "Krůtí medailonky s  omáčkou",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.42,
+      "price": 205,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3319",
+      "name": "Krůtí medailonky s medovou mrkví- s",
+      "category": "Sou100 - obědové menu",
+      "cost": 54.26,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6874",
+      "name": "Krůtí medailonky s omáčkou z paprik",
+      "category": "Sou100 - obědové menu",
+      "cost": 74.04,
+      "price": 199,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7087",
+      "name": "Krůtí medailonky se smetanovým špenátem",
+      "category": "Sou100 - obědové menu",
+      "cost": 60.33,
+      "price": 205,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6507",
+      "name": "Krutí medailonky se sýrovou omáčkou",
+      "category": "Sou100 - obědové menu",
+      "cost": 74.39,
+      "price": 199,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2723",
+      "name": "Krůtí medailonky, fazolky,",
+      "category": "Sou100 - obědové menu",
+      "cost": 65.05,
+      "price": 205,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "4425",
+      "name": "Krůtí roláda",
+      "category": "Sou100 - obědové menu",
+      "cost": 61.92,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6393",
+      "name": "Krůtí řízečky",
+      "category": "Sou100 - obědové menu",
+      "cost": 55.95,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "9841",
+      "name": "krutí s broskví",
+      "category": "Sou100 - obědové menu",
+      "cost": 79.72,
+      "price": 215,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3872",
+      "name": "Krůtí saltimbocca",
+      "category": "Sou100 - obědové menu",
+      "cost": 55.5,
+      "price": 135,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6780",
+      "name": "Krutí steak s kukuřičným klasem",
+      "category": "Sou100 - obědové menu",
+      "cost": 65.38,
+      "price": 199,
+      "heaviness": "medium",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "6075",
+      "name": "Krůtí steak v sýrová omáčka",
+      "category": "Sou100 - obědové menu",
+      "cost": 56.9,
+      "price": 154,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "4014",
+      "name": "Krůtí sveet and sour",
+      "category": "Sou100 - obědové menu",
+      "cost": 57.12,
+      "price": 125,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "8234",
+      "name": "křídla coleslaw",
+      "category": "Sou100 - obědové menu",
+      "cost": 55.57,
+      "price": 189,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "4187",
+      "name": "Kukuřičné kuře, mrkvová kaše",
+      "category": "Sou100 - obědové menu",
+      "cost": 55.52,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7077",
+      "name": "Kung pao",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.11,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "4293",
+      "name": "Kuře na paprice",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.16,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6232",
+      "name": "Kuřecí  na kari jasmín rýže",
+      "category": "Sou100 - obědové menu",
+      "cost": 38.8,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7127",
+      "name": "Kuřecí ballotina s olivami a rajčaty -",
+      "category": "Sou100 - obědové menu",
+      "cost": 53.14,
+      "price": 175,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "summer"
+    },
+    {
+      "id": "10696",
+      "name": "Kuřecí ballotina, špenát s meruňkami a piniemi-",
+      "category": "Sou100 - obědové menu",
+      "cost": 49.12,
+      "price": 175,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6327",
+      "name": "Kuřecí gordon bleu br. kaše",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.55,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6562",
+      "name": "Kuřecí játra na cibulce",
+      "category": "Sou100 - obědové menu",
+      "cost": 35.52,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7168",
+      "name": "kuřecí kapsa s hermelínem",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.73,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6828",
+      "name": "Kuřecí kapsa s mozzarelou",
+      "category": "Sou100 - obědové menu",
+      "cost": 58.27,
+      "price": 205,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6332",
+      "name": "Kuřecí kapsa se špenátem a slaninou",
+      "category": "Sou100 - obědové menu",
+      "cost": 49.67,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6958",
+      "name": "kuřecí kapsa se žampiony a sýrem",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.17,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "4145",
+      "name": "Kuřecí Korma",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.02,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3321",
+      "name": "Kuřecí kostky se zeleninou",
+      "category": "Sou100 - obědové menu",
+      "cost": 0,
+      "price": 119,
+      "heaviness": "light",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3320",
+      "name": "Kuřecí kousky",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.63,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6129",
+      "name": "kuřecí křídla 1kg s doplnky jz",
+      "category": "Sou100 - obědové menu",
+      "cost": 116.12,
+      "price": 0,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7563",
+      "name": "kuřecí kung-pao",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.02,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6430",
+      "name": "Kuřecí medailonky s bylinkovou omáčkou",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.87,
+      "price": 154,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7380",
+      "name": "kuřecí medailonky s mrkví",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.51,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "9108",
+      "name": "Kuřecí medailonky s zeleninou",
+      "category": "Sou100 - obědové menu",
+      "cost": 38.5,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6463",
+      "name": "Kuřecí medailonky v sýrovém těstíčku",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.16,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "9171",
+      "name": "kuřecí na grilu s brokolicí",
+      "category": "Sou100 - obědové menu",
+      "cost": 51.26,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "summer"
+    },
+    {
+      "id": "7225",
+      "name": "kuřecí na kari jasmin rýže",
+      "category": "Sou100 - obědové menu",
+      "cost": 38.8,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7222",
+      "name": "kuřecí nudličky na kari rýže",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.06,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7223",
+      "name": "kuřecí nudličky na kari rýže",
+      "category": "Sou100 - obědové menu",
+      "cost": 38.8,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7226",
+      "name": "Kuřecí nudličky na kari s jasmínovou rýží",
+      "category": "Sou100 - obědové menu",
+      "cost": 38.8,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7230",
+      "name": "Kuřecí nudličky na kari s jasmínovou rýží",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.55,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "9831",
+      "name": "Kuřecí nudličky po čínsku",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.99,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "2964",
+      "name": "Kuřecí paličky - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.99,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3171",
+      "name": "Kuřecí prsa na slanině, rýže",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.7,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3089",
+      "name": "Kuřecí prsa s hráškem",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.92,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6229",
+      "name": "Kuřecí prso na rozmarýnu",
+      "category": "Sou100 - obědové menu",
+      "cost": 54.5,
+      "price": 205,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "5443",
+      "name": "Kuřecí prso po španělsku",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.24,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "5048",
+      "name": "Kuřecí prso s broskví a sýrem",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.8,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6785",
+      "name": "Kuřecí prso s chřestem",
+      "category": "Sou100 - obědové menu",
+      "cost": 76.22,
+      "price": 225,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "8729",
+      "name": "Kuřecí prso s opečenou polentou",
+      "category": "Sou100 - obědové menu",
+      "cost": 61.92,
+      "price": 239,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "winter"
+    },
+    {
+      "id": "1854",
+      "name": "Kuřecí prso se sušenými rajčaty",
+      "category": "Sou100 - obědové menu",
+      "cost": 61.89,
+      "price": 205,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "summer"
+    },
+    {
+      "id": "5323",
+      "name": "Kuřecí prso se sýrem a slaninou",
+      "category": "Sou100 - obědové menu",
+      "cost": 54.02,
+      "price": 169,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "2490",
+      "name": "Kuřecí prso se šunkou a hermelínem",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.88,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3354",
+      "name": "Kuřecí prso ve vinném těstě - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.26,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3242",
+      "name": "Kuřecí prso, čočka s ředkvičkou- s",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.7,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3167",
+      "name": "Kuřecí prso, houbová omáčka, krokety - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 48.33,
+      "price": 154,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6196",
+      "name": "Kuřecí prso, kukuřičný klas",
+      "category": "Sou100 - obědové menu",
+      "cost": 0,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "4079",
+      "name": "Kuřecí prso, pečená zelenina",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.93,
+      "price": 145,
+      "heaviness": "light",
+      "protein": "chicken",
+      "season": "winter"
+    },
+    {
+      "id": "4185",
+      "name": "Kuřecí prso, romesco",
+      "category": "Sou100 - obědové menu",
+      "cost": 60.39,
+      "price": 205,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3246",
+      "name": "Kuřecí rizoto se sýrem a kyselou okurkou - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.03,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3093",
+      "name": "Kuřecí roláda, bramborová kaše- s",
+      "category": "Sou100 - obědové menu",
+      "cost": 37.95,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7379",
+      "name": "kuřecí řízečky v bylinkové strouhance",
+      "category": "Sou100 - obědové menu",
+      "cost": 32.47,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6875",
+      "name": "Kuřecí řízečky ze stehna",
+      "category": "Sou100 - obědové menu",
+      "cost": 37.37,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7348",
+      "name": "Kuřecí řízek salát",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.42,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "chicken",
+      "season": "summer"
+    },
+    {
+      "id": "3723",
+      "name": "Kuřecí řízek v cornflakes",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.99,
+      "price": 145,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6564",
+      "name": "Kuřecí s kapustičkami",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.33,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "8314",
+      "name": "kuřecí steak broskev",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.47,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "8167",
+      "name": "kuřecí steak citronová omáčka",
+      "category": "Sou100 - obědové menu",
+      "cost": 54.11,
+      "price": 154,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "11700",
+      "name": "Kuřecí steak houbová omáčka",
+      "category": "Sou100 - obědové menu",
+      "cost": 48.39,
+      "price": 154,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7529",
+      "name": "kuřecí steak cherry rajčata rýže",
+      "category": "Sou100 - obědové menu",
+      "cost": 34.39,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "summer"
+    },
+    {
+      "id": "8130",
+      "name": "kuřecí steak cherry rajčata",
+      "category": "Sou100 - obědové menu",
+      "cost": 52.09,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "summer"
+    },
+    {
+      "id": "6962",
+      "name": "Kuřecí steak s bylinkovou omáčkou",
+      "category": "Sou100 - obědové menu",
+      "cost": 49.59,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "1766",
+      "name": "Kuřecí steak s cuketou",
+      "category": "Sou100 - obědové menu",
+      "cost": 52.91,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6330",
+      "name": "Kuřecí steak s hráškovou rýží",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.77,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "4146",
+      "name": "Kuřecí steak s mozzarellou",
+      "category": "Sou100 - obědové menu",
+      "cost": 49.58,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6395",
+      "name": "kuřecí steak s rajčaty a mozzarellou",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.53,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "summer"
+    },
+    {
+      "id": "7587",
+      "name": "Kuřecí steak se slaninou a paprikou-",
+      "category": "Sou100 - obědové menu",
+      "cost": 48.48,
+      "price": 155,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7075",
+      "name": "Kuřecí steak se smetanovou omáčkou s kaštany",
+      "category": "Sou100 - obědové menu",
+      "cost": 48.34,
+      "price": 129,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6262",
+      "name": "Kuřecí steak se šunkou a sýrem",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.23,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6714",
+      "name": "Kuřecí steak se žampiony a sýrem",
+      "category": "Sou100 - obědové menu",
+      "cost": 51.25,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "5289",
+      "name": "Kuřecí steak v jogurtu",
+      "category": "Sou100 - obědové menu",
+      "cost": 51.34,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "4428",
+      "name": "Kuřecí steak, bulgur",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.34,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3413",
+      "name": "Kuřecí steak, chorizo omáčka - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 51.52,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3353",
+      "name": "Kuřecí stehenní steak, omáčka z klobásy - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 52.69,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3978",
+      "name": "Kuřecí stehenní steak",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.71,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6147",
+      "name": "Kuřecí stehno alla bažant",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.87,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "10484",
+      "name": "kuřecí stehno na citrusech",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.82,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "2411",
+      "name": "Kuřecí stehno na černém pivu",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.62,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "9299",
+      "name": "kuřecí stehno na houbách",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.12,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "2014",
+      "name": "Kuřecí Supreme s hráškovým bulgurem",
+      "category": "Sou100 - obědové menu",
+      "cost": 68.23,
+      "price": 189,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "4767",
+      "name": "Kuřecí sweet and sour",
+      "category": "Sou100 - obědové menu",
+      "cost": 51.94,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3028",
+      "name": "Kuřecí špíz",
+      "category": "Sou100 - obědové menu",
+      "cost": 36.2,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "8215",
+      "name": "květákové karbanátky",
+      "category": "Sou100 - obědové menu",
+      "cost": 37.15,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "9172",
+      "name": "květákové kari",
+      "category": "Sou100 - obědové menu",
+      "cost": 34.98,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2412",
+      "name": "Květákové risotto",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.33,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7080",
+      "name": "Lasagne bolognese",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.01,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "4294",
+      "name": "Lasagne s kuřetem",
+      "category": "Sou100 - obědové menu",
+      "cost": 56.38,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "2050",
+      "name": "Lasagne zeleninové",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.92,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "10094",
+      "name": "líčka obed",
+      "category": "Sou100 - obědové menu",
+      "cost": 71.02,
+      "price": 199,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2408",
+      "name": "Linquine s kuřcím masem a houbami",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.74,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "8328",
+      "name": "listový salát s hermelínem",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.77,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "8728",
+      "name": "listový salát s mozzarellou",
+      "category": "Sou100 - obědové menu",
+      "cost": 54.22,
+      "price": 185,
+      "heaviness": "light",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "9197",
+      "name": "listový salát s ředkvičkou",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.22,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "3348",
+      "name": "Luštěninová s bramborem - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 14.04,
+      "price": 39,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "9341",
+      "name": "luštěninové placičky",
+      "category": "Sou100 - obědové menu",
+      "cost": 28.32,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "8399",
+      "name": "Lystový salát s granátovým jablkem",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.55,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "5146",
+      "name": "Maso tří barev hranolky",
+      "category": "Sou100 - obědové menu",
+      "cost": 49.75,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "4332",
+      "name": "Maso tří barev",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.49,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7674",
+      "name": "masová směs večeře",
+      "category": "Sou100 - obědové menu",
+      "cost": 48.63,
+      "price": 220,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3094",
+      "name": "Masové kuličky, těstoviny - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.66,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6266",
+      "name": "Medailonky se slaninou a pečenpou cibulí",
+      "category": "Sou100 - obědové menu",
+      "cost": 56.83,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "winter"
+    },
+    {
+      "id": "6960",
+      "name": "Medailonky z karé s kukuřicí",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.13,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "5707",
+      "name": "Medailonky z vepřové panenky , torteliny",
+      "category": "Sou100 - obědové menu",
+      "cost": 66.3,
+      "price": 199,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "8783",
+      "name": "medailonky z vepřové panenky omáčka z pečeného česneku bramborové rosti a salát red coleslaw",
+      "category": "Sou100 - obědové menu",
+      "cost": 59.18,
+      "price": 199,
+      "heaviness": "light",
+      "protein": "pork",
+      "season": "summer"
+    },
+    {
+      "id": "6299",
+      "name": "Medailonky z vepřové panenky",
+      "category": "Sou100 - obědové menu",
+      "cost": 64.4,
+      "price": 205,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "4188",
+      "name": "Milánský telecí řízek s parmezánem",
+      "category": "Sou100 - obědové menu",
+      "cost": 101.69,
+      "price": 169,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "7528",
+      "name": "moravský vrabec  chlupaté knedlíky",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.11,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6835",
+      "name": "Moravský vrabec",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.34,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "8233",
+      "name": "musaka",
+      "category": "Sou100 - obědové menu",
+      "cost": 37.76,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2168",
+      "name": "Naše sekaná- s",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.18,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "5372",
+      "name": "Neapolská kotleta",
+      "category": "Sou100 - obědové menu",
+      "cost": 51.17,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6462",
+      "name": "noky s bolonskou",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.69,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "4142",
+      "name": "Občerstvení Sparta",
+      "category": "Sou100 - obědové menu",
+      "cost": 0,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "5604",
+      "name": "oběd koleno",
+      "category": "Sou100 - obědové menu",
+      "cost": 63.6,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3100",
+      "name": "Obrácený řízek, kaše - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.29,
+      "price": 129,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3803",
+      "name": "Omeleta se sýrem, rajčaty a šunkou",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.01,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "2956",
+      "name": "Otevřený sandwich s krůtím masem a hranolkami",
+      "category": "Sou100 - obědové menu",
+      "cost": 69.57,
+      "price": 159,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7472",
+      "name": "panenka plněná šunkou sýrem a  žampiony",
+      "category": "Sou100 - obědové menu",
+      "cost": 62.02,
+      "price": 199,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3685",
+      "name": "Panenka, hořčicová omáčka",
+      "category": "Sou100 - obědové menu",
+      "cost": 53.57,
+      "price": 169,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7171",
+      "name": "Paprikový lusk",
+      "category": "Sou100 - obědové menu",
+      "cost": 53.76,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3095",
+      "name": "Pečená krkovice, zelí ,knedlíky- s",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.62,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "winter"
+    },
+    {
+      "id": "2416",
+      "name": "Pečená kuřecí křídla",
+      "category": "Sou100 - obědové menu",
+      "cost": 58.89,
+      "price": 205,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "winter"
+    },
+    {
+      "id": "7082",
+      "name": "Pečené koleno, kapustové zelí",
+      "category": "Sou100 - obědové menu",
+      "cost": 67.89,
+      "price": 229,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "winter"
+    },
+    {
+      "id": "11441",
+      "name": "pečený bok kapustové zelí",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.83,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "winter"
+    },
+    {
+      "id": "2571",
+      "name": "Pečený bok, kapustové zelí",
+      "category": "Sou100 - obědové menu",
+      "cost": 49.16,
+      "price": 129,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "winter"
+    },
+    {
+      "id": "6783",
+      "name": "Penne  a kousky panenky",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.01,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7169",
+      "name": "Penne a zeleninovým ragú",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.54,
+      "price": 145,
+      "heaviness": "light",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "2469",
+      "name": "penne Alfredo s kuřecím masem",
+      "category": "Sou100 - obědové menu",
+      "cost": 38.92,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6197",
+      "name": "penne alla amatriciana",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.94,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2733",
+      "name": "Penne arrabbiata",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.02,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7346",
+      "name": "penne e pepperoncio",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.16,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6786",
+      "name": "Penne formage",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.57,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3766",
+      "name": "Penne s bazalkovým pestem a mozzarelou- s",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.44,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3604",
+      "name": "Penne s brokolicí a kuřecím masem",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.15,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "5791",
+      "name": "Penne s dýní a kozým sýrem",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.91,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6146",
+      "name": "Penne s houbovou omáčkou a kuřecím masem",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.85,
+      "price": 119,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7675",
+      "name": "penne s kousky panenky a lilkem",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.27,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6565",
+      "name": "penne s kousky panenky a portobellem",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.7,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7583",
+      "name": "penne s kozím sýrem",
+      "category": "Sou100 - obědové menu",
+      "cost": 55.44,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "9877",
+      "name": "penne s kuřecím masem a lilkem",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.99,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6233",
+      "name": "Penne s kuřecím masem a olivami",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.32,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "9034",
+      "name": "penne s kuřecím masem a rajčaty",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.45,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "summer"
+    },
+    {
+      "id": "6331",
+      "name": "Penne s rajčaty a panenkou",
+      "category": "Sou100 - obědové menu",
+      "cost": 38.46,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "3569",
+      "name": "Penne s trhaným kuřetem",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.81,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6300",
+      "name": "Penne se sušenými rajčaty a rukolou",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.99,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "5759",
+      "name": "Penne sušenými rajčaty",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.89,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "6784",
+      "name": "Pikantní guláš, bramboráčky",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.36,
+      "price": 165,
+      "heaviness": "heavy",
+      "protein": "beef",
+      "season": "winter"
+    },
+    {
+      "id": "3608",
+      "name": "Pikantní kousky panenky, bramboráčky",
+      "category": "Sou100 - obědové menu",
+      "cost": 49.74,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2802",
+      "name": "Pikantní kuřecí jatýrka",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.45,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7349",
+      "name": "Pikantní kuřecí nudličky,hranolky",
+      "category": "Sou100 - obědové menu",
+      "cost": 56.08,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "2963",
+      "name": "Pikantní vepřová směs - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.54,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3515",
+      "name": "Pikantní vepřové nudličky",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.72,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "7471",
+      "name": "pikantní vepřový guláš bramboráčky",
+      "category": "Sou100 - obědové menu",
+      "cost": 49.25,
+      "price": 165,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "winter"
+    },
+    {
+      "id": "3201",
+      "name": "Pikatní vepřové stir fry - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.09,
+      "price": 135,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "4214",
+      "name": "pita kuřecí gyros",
+      "category": "Sou100 - obědové menu",
+      "cost": 31.52,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6280",
+      "name": "Plec po selsku",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.07,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "10456",
+      "name": "plíčky na smetaně",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.79,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3851",
+      "name": "pljeskavica",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.75,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6268",
+      "name": "Plněná krůtí kapsa",
+      "category": "Sou100 - obědové menu",
+      "cost": 57.44,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6607",
+      "name": "Plněná panenka špenáte",
+      "category": "Sou100 - obědové menu",
+      "cost": 61.84,
+      "price": 199,
+      "heaviness": "medium",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "4182",
+      "name": "Plněná panenka",
+      "category": "Sou100 - obědové menu",
+      "cost": 60.65,
+      "price": 205,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7770",
+      "name": "plněná paprika",
+      "category": "Sou100 - obědové menu",
+      "cost": 55.01,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2157",
+      "name": "Plněné bramborové knedlíky-",
+      "category": "Sou100 - obědové menu",
+      "cost": 12.04,
+      "price": 129,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "9447",
+      "name": "pohankové risotto",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.74,
+      "price": 159,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2773",
+      "name": "polenta, zelenina",
+      "category": "Sou100 - obědové menu",
+      "cost": 26.78,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "5546",
+      "name": "Polévka menu za 29,-",
+      "category": "Sou100 - obědové menu",
+      "cost": 0,
+      "price": 29,
+      "heaviness": "light",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "5489",
+      "name": "Polpette",
+      "category": "Sou100 - obědové menu",
+      "cost": 50,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3914",
+      "name": "Portobello risotto",
+      "category": "Sou100 - obědové menu",
+      "cost": 49,
+      "price": 135,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6282",
+      "name": "Prejt",
+      "category": "Sou100 - obědové menu",
+      "cost": 38.74,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "4186",
+      "name": "Pstruh, grilovaná zelenina",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.66,
+      "price": 159,
+      "heaviness": "light",
+      "protein": "vege",
+      "season": "summer"
+    },
+    {
+      "id": "5932",
+      "name": "Putanesca",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.44,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3765",
+      "name": "Rigatoni s pikantní klobáskou",
+      "category": "Sou100 - obědové menu",
+      "cost": 36.75,
+      "price": 119,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "4426",
+      "name": "Risotto s vepřovou panenkou",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.01,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "1762",
+      "name": "Risotto se sýrem Feta",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.37,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2620",
+      "name": "Roastbeef, slaninová mayo",
+      "category": "Sou100 - obědové menu",
+      "cost": 59.33,
+      "price": 159,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "5406",
+      "name": "Rolovaná telecí plec",
+      "category": "Sou100 - obědové menu",
+      "cost": 72.37,
+      "price": 169,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "4016",
+      "name": "rozlítaný ptáček",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.82,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3877",
+      "name": "Rozpečený kozí sýr se zeleninou",
+      "category": "Sou100 - obědové menu",
+      "cost": 51.46,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "vege",
+      "season": "winter"
+    },
+    {
+      "id": "3297",
+      "name": "Rýžové krokety , listový salát - S",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.58,
+      "price": 119,
+      "heaviness": "light",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "3245",
+      "name": "Řecký salát s fetou- s",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.35,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "3416",
+      "name": "Řeznický guláš, knedlík - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 57.92,
+      "price": 129,
+      "heaviness": "heavy",
+      "protein": "beef",
+      "season": "winter"
+    },
+    {
+      "id": "2015",
+      "name": "Salát s bulgurem a  balkánem",
+      "category": "Sou100 - obědové menu",
+      "cost": 55.23,
+      "price": 139,
+      "heaviness": "light",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "2853",
+      "name": "Salát s hruškou, bramborami a slaninou",
+      "category": "Sou100 - obědové menu",
+      "cost": 48.51,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "8605",
+      "name": "salát s husím konfitem",
+      "category": "Sou100 - obědové menu",
+      "cost": 59.03,
+      "price": 169,
+      "heaviness": "light",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "2042",
+      "name": "Salát z čočky beluga",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.68,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "vege",
+      "season": "summer"
+    },
+    {
+      "id": "3449",
+      "name": "Salát z lilkem a kuskusem, kuře - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.69,
+      "price": 139,
+      "heaviness": "light",
+      "protein": "chicken",
+      "season": "summer"
+    },
+    {
+      "id": "7892",
+      "name": "salátek poledne",
+      "category": "Sou100 - obědové menu",
+      "cost": 11.11,
+      "price": 49,
+      "heaviness": "light",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "4786",
+      "name": "Segedin",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.29,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "10205",
+      "name": "sekaná svíčková",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.7,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "beef",
+      "season": "winter"
+    },
+    {
+      "id": "6231",
+      "name": "sekaný máslový řízek",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.11,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "1757",
+      "name": "Sekaný řízek, kukuřice- s",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.25,
+      "price": 129,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "8274",
+      "name": "selský bok",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.61,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2576",
+      "name": "Skotské vejce",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.56,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "8260",
+      "name": "skotské vejce",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.32,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "11069",
+      "name": "smažák dětí 1.6",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.68,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2055",
+      "name": "Smažená kotleta se šunkou a sýrem",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.87,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2213",
+      "name": "Smažená krkovice",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.14,
+      "price": 139,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7924",
+      "name": "smažená kuřecí játra",
+      "category": "Sou100 - obědové menu",
+      "cost": 51.1,
+      "price": 139,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "9926",
+      "name": "smažená kuřecí křídla",
+      "category": "Sou100 - obědové menu",
+      "cost": 52.66,
+      "price": 154,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6539",
+      "name": "Smažená treska",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.77,
+      "price": 154,
+      "heaviness": "heavy",
+      "protein": "fish",
+      "season": "all-year"
+    },
+    {
+      "id": "3577",
+      "name": "Smažená vepřová játra",
+      "category": "Sou100 - obědové menu",
+      "cost": 37.74,
+      "price": 154,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "6959",
+      "name": "Smažené karbanátky",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.49,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2947",
+      "name": "Smažené karé, vídeňský salát",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.56,
+      "price": 159,
+      "heaviness": "light",
+      "protein": "pork",
+      "season": "summer"
+    },
+    {
+      "id": "6198",
+      "name": "Smažené kuřecí paličky",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.2,
+      "price": 139,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3731",
+      "name": "Smažené kuřecí stripsy br kaše",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.7,
+      "price": 154,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6563",
+      "name": "Smažené řízečky ze stehna",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.79,
+      "price": 139,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6199",
+      "name": "Smažené řízky z krkovice",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.8,
+      "price": 169,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "1856",
+      "name": "Smažené vepřové stripsy",
+      "category": "Sou100 - obědové menu",
+      "cost": 49.1,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "5973",
+      "name": "Smažený blaták",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.88,
+      "price": 154,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6429",
+      "name": "Smažený celer",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.71,
+      "price": 129,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6145",
+      "name": "Smažený králičí řízek",
+      "category": "Sou100 - obědové menu",
+      "cost": 71.83,
+      "price": 139,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3804",
+      "name": "Smažený kuřecí řízek",
+      "category": "Sou100 - obědové menu",
+      "cost": 52.93,
+      "price": 154,
+      "heaviness": "heavy",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3801",
+      "name": "Smažený květák",
+      "category": "Sou100 - obědové menu",
+      "cost": 38.12,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2468",
+      "name": "Smažený sýr Eidam",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.03,
+      "price": 154,
+      "heaviness": "heavy",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "6832",
+      "name": "Smažený sýr Gouda",
+      "category": "Sou100 - obědové menu",
+      "cost": 58.57,
+      "price": 129,
+      "heaviness": "heavy",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "7084",
+      "name": "Smažený sýr Hermelín",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.48,
+      "price": 154,
+      "heaviness": "heavy",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "1705",
+      "name": "Smažený sýrový špíz",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.95,
+      "price": 154,
+      "heaviness": "heavy",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "3248",
+      "name": "Smetanové brambory s vepřovým masem a cibulí",
+      "category": "Sou100 - obědové menu",
+      "cost": 36.25,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3517",
+      "name": "soba nudle s kuřecím masem",
+      "category": "Sou100 - obědové menu",
+      "cost": 0,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6088",
+      "name": "Soté z  jatírek",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.72,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "1770",
+      "name": "Spaghetti aglio olio",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.46,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7228",
+      "name": "spaghetti alla putanesca",
+      "category": "Sou100 - obědové menu",
+      "cost": 37.06,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "5685",
+      "name": "Spaghetti cacio e pepe",
+      "category": "Sou100 - obědové menu",
+      "cost": 31.12,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7289",
+      "name": "spaghetti carbonara",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.04,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2777",
+      "name": "Spaghetti Genovese",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.79,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "5049",
+      "name": "Spaghetti po benátsku",
+      "category": "Sou100 - obědové menu",
+      "cost": 49.17,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2056",
+      "name": "Spaghetti po uhlířsku",
+      "category": "Sou100 - obědové menu",
+      "cost": 75.11,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7081",
+      "name": "Spaghetti primavera",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.72,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "8757",
+      "name": "spaghetti Quattro formaggi",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.63,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "1855",
+      "name": "Spaghetti s bazalkovým pestem",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.03,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "5145",
+      "name": "Spaghetti s bolonským ragu",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.55,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7291",
+      "name": "spaghetti s cuketou",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.93,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "4015",
+      "name": "Spaghetti s kaštany a portobellem",
+      "category": "Sou100 - obědové menu",
+      "cost": 54.42,
+      "price": 125,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3490",
+      "name": "Spaghetti s klobásou",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.04,
+      "price": 145,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3535",
+      "name": "Spaghetti s kousky panenky",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.95,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7834",
+      "name": "spaghetti s kuřecím masem a brokolicí",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.17,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6834",
+      "name": "Spaghetti s kuřecím masem a olivami",
+      "category": "Sou100 - obědové menu",
+      "cost": 38.45,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7731",
+      "name": "spaghetti s kuřecím masem bazalkovým pestem",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.84,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7433",
+      "name": "spaghetti s kuřecím rukolou a citronem",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.42,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6076",
+      "name": "Spaghetti s lilkem, kuřecím",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.43,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3352",
+      "name": "spaghetti s masovými kuličkami - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.29,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "4919",
+      "name": "Spaghetti s panenkou a pečeným lilkem",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.43,
+      "price": 119,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "winter"
+    },
+    {
+      "id": "5322",
+      "name": "Spaghetti s portobellem a klobáskou",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.08,
+      "price": 145,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "2612",
+      "name": "Spaghetti s řepou",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.03,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6392",
+      "name": "spaghetti s treskou",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.19,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "fish",
+      "season": "all-year"
+    },
+    {
+      "id": "6645",
+      "name": "Spaghetti se slaninou a cherry rajčaty",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.74,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "6536",
+      "name": "spaghetti se zeleným chřestem",
+      "category": "Sou100 - obědové menu",
+      "cost": 38.94,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "1837",
+      "name": "Srbské rizoto s vepřovým masem",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.93,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "2728",
+      "name": "Srbské žebírko",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.54,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3489",
+      "name": "Srnčí guláš- s",
+      "category": "Sou100 - obědové menu",
+      "cost": 57.3,
+      "price": 129,
+      "heaviness": "heavy",
+      "protein": "beef",
+      "season": "winter"
+    },
+    {
+      "id": "6234",
+      "name": "Steak z krkovice, bramborový salát",
+      "category": "Sou100 - obědové menu",
+      "cost": 32.53,
+      "price": 149,
+      "heaviness": "light",
+      "protein": "beef",
+      "season": "summer"
+    },
+    {
+      "id": "12005",
+      "name": "steak z krkovice, hořčičná",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.05,
+      "price": 169,
+      "heaviness": "medium",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "6339",
+      "name": "Steak z krkovice, pepřová omáčka",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.73,
+      "price": 205,
+      "heaviness": "heavy",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "3415",
+      "name": "Strapačky, uzené, zelí - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.42,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "6957",
+      "name": "Stroganoff z krutího masa",
+      "category": "Sou100 - obědové menu",
+      "cost": 51.6,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2804",
+      "name": "Stroganoff, kuře",
+      "category": "Sou100 - obědové menu",
+      "cost": 33.45,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6143",
+      "name": "Supreme, sýrová omáčka",
+      "category": "Sou100 - obědové menu",
+      "cost": 59.59,
+      "price": 199,
+      "heaviness": "heavy",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "3687",
+      "name": "svíčková oběd",
+      "category": "Sou100 - obědové menu",
+      "cost": 59.95,
+      "price": 215,
+      "heaviness": "heavy",
+      "protein": "beef",
+      "season": "winter"
+    },
+    {
+      "id": "3211",
+      "name": "Šoulet s vepřovým bokem",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.29,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "6836",
+      "name": "špagety s mozzarelou a rajčaty",
+      "category": "Sou100 - obědové menu",
+      "cost": 31.08,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "5022",
+      "name": "špagety se sýrovou omáčkou a ořechy",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.06,
+      "price": 145,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "1849",
+      "name": "Špekové knedlíky se zelím",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.46,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "5605",
+      "name": "Špenátové lasagne",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.22,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "3249",
+      "name": "Štěpánská hovězí pečeně, rýže- s",
+      "category": "Sou100 - obědové menu",
+      "cost": 54.31,
+      "price": 129,
+      "heaviness": "heavy",
+      "protein": "beef",
+      "season": "winter"
+    },
+    {
+      "id": "3450",
+      "name": "Šunka od kosti s nastavovanou kaší- s",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.45,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3247",
+      "name": "Švédské kuličky s br.kaší",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.91,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6263",
+      "name": "Táborská bašta",
+      "category": "Sou100 - obědové menu",
+      "cost": 65.31,
+      "price": 199,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2337",
+      "name": "Tagliatelle Napoletana",
+      "category": "Sou100 - obědové menu",
+      "cost": 49.23,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6712",
+      "name": "Tagliatelle s houbovým ragu a panenkou",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.45,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "7638",
+      "name": "tagliatelle s houbovým ragu",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.7,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "8193",
+      "name": "tagliatelle s kaštan pestem",
+      "category": "Sou100 - obědové menu",
+      "cost": 57.47,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6831",
+      "name": "Tagliatelle s kousky lososa",
+      "category": "Sou100 - obědové menu",
+      "cost": 54.26,
+      "price": 205,
+      "heaviness": "medium",
+      "protein": "fish",
+      "season": "all-year"
+    },
+    {
+      "id": "11763",
+      "name": "Tagliatelle s kousky panenky a baby špenátem",
+      "category": "Sou100 - obědové menu",
+      "cost": 49.08,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "6540",
+      "name": "tagliatelle s kousky panenky a olivami",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.95,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7960",
+      "name": "tagliatelle s kousky panenky a rajčaty",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.21,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "6541",
+      "name": "Tagliatelle s krůtím masem a portobellem",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.4,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "5706",
+      "name": "tagliatelle s krůtím masem",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.17,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "6428",
+      "name": "Tagliatelle s kuřecím a baby špenátem",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.94,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "9797",
+      "name": "tagliatelle s kuřecím masem a olivami",
+      "category": "Sou100 - obědové menu",
+      "cost": 38.6,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "5661",
+      "name": "Tagliatelle s pečenou dýní",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.18,
+      "price": 129,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "winter"
+    },
+    {
+      "id": "6684",
+      "name": "Tagliatelle s porkem a panenkou",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.71,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "9120",
+      "name": "tagliatelle s rukolou a kuřecím",
+      "category": "Sou100 - obědové menu",
+      "cost": 35.11,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "7437",
+      "name": "tagliatelle s rukolou a panenkou",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.87,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6961",
+      "name": "Tagliatelle s vejcem, cuketou a parmezánem",
+      "category": "Sou100 - obědové menu",
+      "cost": 38.36,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7170",
+      "name": "Tagliatelle se sušenými rajčaty a kuřecím",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.65,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "summer"
+    },
+    {
+      "id": "9652",
+      "name": "tagliattele s gril zeleninou",
+      "category": "Sou100 - obědové menu",
+      "cost": 48.21,
+      "price": 145,
+      "heaviness": "light",
+      "protein": "vege",
+      "season": "summer"
+    },
+    {
+      "id": "4081",
+      "name": "tagliattele s mozzarellou a kuřecím masem",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.71,
+      "price": 145,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3516",
+      "name": "Telecí blanket se špeclemi",
+      "category": "Sou100 - obědové menu",
+      "cost": 71.73,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7530",
+      "name": "telecí játra se slaninou opečení brambor",
+      "category": "Sou100 - obědové menu",
+      "cost": 53.39,
+      "price": 199,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "winter"
+    },
+    {
+      "id": "2776",
+      "name": "Telecí na paprice",
+      "category": "Sou100 - obědové menu",
+      "cost": 56.66,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "5970",
+      "name": "Telecí paillard",
+      "category": "Sou100 - obědové menu",
+      "cost": 71.54,
+      "price": 169,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "4787",
+      "name": "Telecí pavouček",
+      "category": "Sou100 - obědové menu",
+      "cost": 98.89,
+      "price": 333,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "4183",
+      "name": "Telecí veverka",
+      "category": "Sou100 - obědové menu",
+      "cost": 88.03,
+      "price": 205,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3603",
+      "name": "Těstovinový salát s krutí masem",
+      "category": "Sou100 - obědové menu",
+      "cost": 52.68,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "vege",
+      "season": "summer"
+    },
+    {
+      "id": "9878",
+      "name": "těstovinový salát",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.36,
+      "price": 159,
+      "heaviness": "light",
+      "protein": "vege",
+      "season": "summer"
+    },
+    {
+      "id": "3243",
+      "name": "Tortila s třemi druhy sýra- s",
+      "category": "Sou100 - obědové menu",
+      "cost": 59.66,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2166",
+      "name": "Tortila se stripsy",
+      "category": "Sou100 - obědové menu",
+      "cost": 51.83,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "8132",
+      "name": "tortilla s hovězím a fazolemi",
+      "category": "Sou100 - obědové menu",
+      "cost": 56.57,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "3283",
+      "name": "Tortilla s kuřecím masem - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.55,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "8074",
+      "name": "tortilla s kuřecími stripsy",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.71,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "10063",
+      "name": "treska na grilu",
+      "category": "Sou100 - obědové menu",
+      "cost": 52.56,
+      "price": 169,
+      "heaviness": "medium",
+      "protein": "fish",
+      "season": "summer"
+    },
+    {
+      "id": "2047",
+      "name": "Treska",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.08,
+      "price": 165,
+      "heaviness": "medium",
+      "protein": "fish",
+      "season": "all-year"
+    },
+    {
+      "id": "3913",
+      "name": "Trhaná krkovice, bramborové šišky",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.88,
+      "price": 135,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "3322",
+      "name": "Trhané kuře , kuskus",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.5,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "2852",
+      "name": "Trhané vepřové",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.6,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "2012",
+      "name": "Trhané vepřové, červené zelí",
+      "category": "Sou100 - obědové menu",
+      "cost": 34.9,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3982",
+      "name": "Tvarohové knedlíky s borůvkovým rozvarem",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.48,
+      "price": 125,
+      "heaviness": "heavy",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "5760",
+      "name": "Uzená krkovice br kaše",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.35,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "2854",
+      "name": "Uzená plec, zelí, špekový knedlík - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 48.62,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3169",
+      "name": "Uzené, křenová, br. placky - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.87,
+      "price": 119,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "7378",
+      "name": "uzené, špenát",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.16,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "10503",
+      "name": "uzený bok zelí",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.88,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "10195",
+      "name": "v.kýta frankfurtská",
+      "category": "Sou100 - obědové menu",
+      "cost": 34.06,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "6301",
+      "name": "Vepřová játra po anglicku",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.32,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "9148",
+      "name": "vepřová játra po uhersku",
+      "category": "Sou100 - obědové menu",
+      "cost": 36.02,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "5045",
+      "name": "Vepřová kapsa se šunkou a sýrem",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.76,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "5509",
+      "name": "Vepřová kapsa se šunkou a špenátem",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.23,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "4080",
+      "name": "Vepřová kotleta, hořčicová omáčka",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.13,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "2566",
+      "name": "Vepřová kotleta, kukuřice, pečená brambora",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.41,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "winter"
+    },
+    {
+      "id": "3530",
+      "name": "Vepřová kotleta",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.88,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "4695",
+      "name": "Vepřová kotletka, pilaf",
+      "category": "Sou100 - obědové menu",
+      "cost": 48.15,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "5461",
+      "name": "Vepřová krkovice, bramborová kaše",
+      "category": "Sou100 - obědové menu",
+      "cost": 34.23,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "2965",
+      "name": "Vepřová krkovice, Pepřová omáčka - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.13,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "6329",
+      "name": "Vepřová krkovice, špenát, knedlík",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.78,
+      "price": 129,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "2052",
+      "name": "Vepřová krkovice,houbový kuba",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.84,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "8131",
+      "name": "vepřová krkovička hrachová kaše",
+      "category": "Sou100 - obědové menu",
+      "cost": 35.35,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3318",
+      "name": "Vepřová kýta po hambursku - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.04,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "4693",
+      "name": "Vepřová kýta s hoisin",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.09,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "874",
+      "name": "Vepřová panenka s fazolkami a slaninou",
+      "category": "Sou100 - obědové menu",
+      "cost": 60,
+      "price": 189,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "7216",
+      "name": "Vepřová panenka s kukuřicí",
+      "category": "Sou100 - obědové menu",
+      "cost": 53.69,
+      "price": 199,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "6508",
+      "name": "Vepřová panenka s omáčkou z česneku",
+      "category": "Sou100 - obědové menu",
+      "cost": 55.99,
+      "price": 199,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "2471",
+      "name": "Vepřová panenka, hrášková kaše",
+      "category": "Sou100 - obědové menu",
+      "cost": 59.04,
+      "price": 169,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3570",
+      "name": "Vepřová panenka, chilli cottage",
+      "category": "Sou100 - obědové menu",
+      "cost": 56.21,
+      "price": 169,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "5524",
+      "name": "Vepřová panenka, romesco,  grenaille",
+      "category": "Sou100 - obědové menu",
+      "cost": 58.13,
+      "price": 199,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "9889",
+      "name": "Vepřová pečeně, houskový knedlík, zel",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.03,
+      "price": 140,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "winter"
+    },
+    {
+      "id": "10003",
+      "name": "vepřová pikantní směs",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.23,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "2611",
+      "name": "Vepřová plec na česneku",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.58,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "6394",
+      "name": "Vepřová plec na divoko",
+      "category": "Sou100 - obědové menu",
+      "cost": 28.34,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3027",
+      "name": "Vepřová plec na houbách",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.66,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "5462",
+      "name": "Vepřová plec na medu, ragu z čočky",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.89,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3168",
+      "name": "Vepřová plec na víně - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 38.21,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "7079",
+      "name": "Vepřová plec na zázvoru",
+      "category": "Sou100 - obědové menu",
+      "cost": 28.43,
+      "price": 119,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3313",
+      "name": "Vepřová plec po cikánsku - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.51,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "6986",
+      "name": "Vepřová plec po Znojemsku",
+      "category": "Sou100 - obědové menu",
+      "cost": 35.64,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3036",
+      "name": "Vepřová plec, kapusta, rosti",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.62,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3255",
+      "name": "Vepřová směs v bramboráku - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 49.69,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "1835",
+      "name": "Vepřové Fajitas",
+      "category": "Sou100 - obědové menu",
+      "cost": 52.32,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "6876",
+      "name": "Vepřové karé na hořčici",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.65,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3254",
+      "name": "VepřovÉ LEDVINKY na cibulce- s",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.38,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "7500",
+      "name": "vepřové medailonky s fazolkami",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.75,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "5020",
+      "name": "Vepřové medailonky s klobásou a houbami",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.85,
+      "price": 139,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "6427",
+      "name": "Vepřové medailonky s pepřovou",
+      "category": "Sou100 - obědové menu",
+      "cost": 36.28,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "5606",
+      "name": "Vepřové medailonky z panenky s kukuřicí",
+      "category": "Sou100 - obědové menu",
+      "cost": 57.56,
+      "price": 205,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "2045",
+      "name": "Vepřové na paprice",
+      "category": "Sou100 - obědové menu",
+      "cost": 35.28,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "5043",
+      "name": "Vepřové nudlič z panenky",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.9,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "1704",
+      "name": "Vepřové nudličky po čínsku, rýže",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.11,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "2855",
+      "name": "Vepřové po burgundsku - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.61,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3252",
+      "name": "Vepřové ražniči - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 49.58,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "9196",
+      "name": "vepřové s arašídy",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.95,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "2501",
+      "name": "Vepřové stir fry",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.92,
+      "price": 135,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3568",
+      "name": "Vepřové v mrkvi",
+      "category": "Sou100 - obědové menu",
+      "cost": 33.51,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "2486",
+      "name": "Vepřové žebírko po srbsku",
+      "category": "Sou100 - obědové menu",
+      "cost": 41,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3719",
+      "name": "Vepřový bok s medem a sezamem",
+      "category": "Sou100 - obědové menu",
+      "cost": 41.49,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "2336",
+      "name": "Vepřový bok se špenátem",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.87,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3350",
+      "name": "Vepřový bok, kaše, BBQ - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.21,
+      "price": 129,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "2572",
+      "name": "Vepřový bok, mažená rýže",
+      "category": "Sou100 - obědové menu",
+      "cost": 46.8,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3088",
+      "name": "Vepřový guláš -S",
+      "category": "Sou100 - obědové menu",
+      "cost": 33.46,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "winter"
+    },
+    {
+      "id": "2167",
+      "name": "Vepřový perkelt",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.87,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "9938",
+      "name": "vepřový řízek bram. salát",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.84,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "pork",
+      "season": "summer"
+    },
+    {
+      "id": "7961",
+      "name": "vepřový řízek brambor. salát",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.82,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "pork",
+      "season": "summer"
+    },
+    {
+      "id": "1768",
+      "name": "Vepřový řízek, hranolky  - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.49,
+      "price": 139,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "5829",
+      "name": "Vepřový steak s houbovým ragu",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.34,
+      "price": 149,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "11121",
+      "name": "vepřový steak s kukuřicí",
+      "category": "Sou100 - obědové menu",
+      "cost": 55.15,
+      "price": 169,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "6144",
+      "name": "Vepřový steak s modrým sýrem",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.98,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "6781",
+      "name": "Vepřový steak s omáčkou z česneku",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.26,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "1845",
+      "name": "Vepřový steak s pepřovou omáčkou",
+      "category": "Sou100 - obědové menu",
+      "cost": 54.11,
+      "price": 205,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "7470",
+      "name": "Vepřový steak se sýrovou omáčkou zelenin. rýže",
+      "category": "Sou100 - obědové menu",
+      "cost": 48.75,
+      "price": 149,
+      "heaviness": "light",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "7462",
+      "name": "Vepřový steak se sýrovou omáčkou",
+      "category": "Sou100 - obědové menu",
+      "cost": 55.86,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "6985",
+      "name": "Vepřový steak se šunkou a hermelínem",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.04,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "7536",
+      "name": "Vepřový steak se šunkou a sýrem",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.68,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "7789",
+      "name": "Vepřový steak se šunkou a vejcem",
+      "category": "Sou100 - obědové menu",
+      "cost": 56.42,
+      "price": 189,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3484",
+      "name": "Vepřový steak se žampiony a sýrem",
+      "category": "Sou100 - obědové menu",
+      "cost": 39.85,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "7085",
+      "name": "Vepřový steak z kýty se zeleninovou omáčkou",
+      "category": "Sou100 - obědové menu",
+      "cost": 48.17,
+      "price": 149,
+      "heaviness": "light",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3356",
+      "name": "Vepřový steak, hořčicová omáčka- s",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.62,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "4433",
+      "name": "vepřový stroganoff",
+      "category": "Sou100 - obědové menu",
+      "cost": 48.72,
+      "price": 154,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3414",
+      "name": "Vepřový špíz, pečený brambor - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 36.78,
+      "price": 154,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "winter"
+    },
+    {
+      "id": "4147",
+      "name": "Vinná klobása, houbové rizoto",
+      "category": "Sou100 - obědové menu",
+      "cost": 50.62,
+      "price": 125,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "2171",
+      "name": "Vinná klobása",
+      "category": "Sou100 - obědové menu",
+      "cost": 47.74,
+      "price": 139,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "2139",
+      "name": "Wrap hovězí",
+      "category": "Sou100 - obědové menu",
+      "cost": 43.89,
+      "price": 99,
+      "heaviness": "medium",
+      "protein": "beef",
+      "season": "all-year"
+    },
+    {
+      "id": "2138",
+      "name": "Wrap kuřecí",
+      "category": "Sou100 - obědové menu",
+      "cost": 33.87,
+      "price": 99,
+      "heaviness": "medium",
+      "protein": "chicken",
+      "season": "all-year"
+    },
+    {
+      "id": "3392",
+      "name": "Zadělávaná rybí polévka - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 8.54,
+      "price": 39,
+      "heaviness": "light",
+      "protein": "fish",
+      "season": "all-year"
+    },
+    {
+      "id": "3448",
+      "name": "Zadělávané telecí, nudle - s",
+      "category": "Sou100 - obědové menu",
+      "cost": 71.73,
+      "price": 159,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "7469",
+      "name": "záhorácký závitek bram knedlík",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.77,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "4694",
+      "name": "Zapečené palačinky se špenátem",
+      "category": "Sou100 - obědové menu",
+      "cost": 54.77,
+      "price": 129,
+      "heaviness": "heavy",
+      "protein": "vege",
+      "season": "winter"
+    },
+    {
+      "id": "11258",
+      "name": "zapečené špagety",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.31,
+      "price": 145,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "winter"
+    },
+    {
+      "id": "2492",
+      "name": "Zapečené těstoviny s uzením a okurkou",
+      "category": "Sou100 - obědové menu",
+      "cost": 44.44,
+      "price": 149,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "winter"
+    },
+    {
+      "id": "8501",
+      "name": "zapečené žampiony",
+      "category": "Sou100 - obědové menu",
+      "cost": 54.13,
+      "price": 154,
+      "heaviness": "heavy",
+      "protein": "mixed",
+      "season": "winter"
+    },
+    {
+      "id": "8478",
+      "name": "zeleninové kari",
+      "category": "Sou100 - obědové menu",
+      "cost": 40.88,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "4632",
+      "name": "Zeleninové lečo s klobásou",
+      "category": "Sou100 - obědové menu",
+      "cost": 46,
+      "price": 149,
+      "heaviness": "light",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "8438",
+      "name": "zeleninové rizoto",
+      "category": "Sou100 - obědové menu",
+      "cost": 42.85,
+      "price": 154,
+      "heaviness": "light",
+      "protein": "vege",
+      "season": "all-year"
+    },
+    {
+      "id": "9121",
+      "name": "zeleninový salát s koprem",
+      "category": "Sou100 - obědové menu",
+      "cost": 45.82,
+      "price": 159,
+      "heaviness": "light",
+      "protein": "vege",
+      "season": "summer"
+    },
+    {
+      "id": "2848",
+      "name": "Zelinový krém",
+      "category": "Sou100 - obědové menu",
+      "cost": 0,
+      "price": 39,
+      "heaviness": "medium",
+      "protein": "mixed",
+      "season": "all-year"
+    },
+    {
+      "id": "2945",
+      "name": "Zelňačka s klobásou",
+      "category": "Sou100 - obědové menu",
+      "cost": 11.72,
+      "price": 39,
+      "heaviness": "heavy",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3091",
+      "name": "Zelný salát s roastbeefem -S",
+      "category": "Sou100 - obědové menu",
+      "cost": 53.38,
+      "price": 139,
+      "heaviness": "light",
+      "protein": "mixed",
+      "season": "summer"
+    },
+    {
+      "id": "7498",
+      "name": "znojemská vepřová kýta",
+      "category": "Sou100 - obědové menu",
+      "cost": 32.39,
+      "price": 139,
+      "heaviness": "medium",
+      "protein": "pork",
+      "season": "all-year"
+    },
+    {
+      "id": "3298",
+      "name": "Zvěřinový guláš poledne",
+      "category": "Sou100 - obědové menu",
+      "cost": 28.43,
+      "price": 179,
+      "heaviness": "heavy",
+      "protein": "beef",
+      "season": "winter"
+    }
+  ],
+  "soups": [
+    {
+      "id": "3574",
+      "name": "Boršč",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "2048",
+      "name": "Bramboračka s houbami",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "1698",
+      "name": "Bramborový krém",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "3077",
+      "name": "Bramborový krém s uzeným a kroupami",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "7217",
+      "name": "Brokolicová s krutony",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "1703",
+      "name": "Brokolicový krém",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "1887",
+      "name": "Celerový krém",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "4344",
+      "name": "Cibulačka",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "7436",
+      "name": "cizrnová polévka",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "5046",
+      "name": "Cizrnová s cuketou",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "5040",
+      "name": "Cizrnová s rajčaty",
+      "heaviness": "light",
+      "season": "summer"
+    },
+    {
+      "id": "10424",
+      "name": "černá oběd zabijačková",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "6230",
+      "name": "černá zabijačková",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "2615",
+      "name": "Česnečka",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "6830",
+      "name": "Čočková",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "3495",
+      "name": "Čočková s párkem",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "10249",
+      "name": "čočková z belugy",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "7166",
+      "name": "Drstkova z hlívy",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "1836",
+      "name": "Dršťková",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "4415",
+      "name": "Dršťková z portobella-",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "11905",
+      "name": "dýňový krém poledne",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "2170",
+      "name": "Dýňový krém",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "1851",
+      "name": "Fazolová bílá",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "4291",
+      "name": "Frankfurtská",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "9512",
+      "name": "Gazpacho",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "2895",
+      "name": "Gulášová z vepřového masa- s",
+      "heaviness": "light",
+      "season": "winter"
+    },
+    {
+      "id": "877",
+      "name": "Houbová omáčka",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "6829",
+      "name": "Hovězí vývar  kapáním",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "7342",
+      "name": "hovězí vývar játrová rýže",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "6984",
+      "name": "Hovězí vývar s fritátovými nudlemi",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "869",
+      "name": "Hovězí vývar s masem , zeleninou a nudlemi - s",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "5828",
+      "name": "Hovězí vývar s šunkovým svitkem",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "7076",
+      "name": "Hovězí vývar se zeleninou a nudlemi",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "2487",
+      "name": "Hovězí vývar základ",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "2211",
+      "name": "Hrachovka",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "1833",
+      "name": "Hráškový krém",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "2335",
+      "name": "Hrstková",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "9298",
+      "name": "chřest krém poledne",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "4528",
+      "name": "Chřestový krém",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "9150",
+      "name": "jarní krém s kopřivami",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "6057",
+      "name": "Kapustová",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "2570",
+      "name": "Kapustový krém",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "3736",
+      "name": "Kaštanovo houbový krém",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "6513",
+      "name": "Krém z medvědího česneku",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "4021",
+      "name": "Krém z medvědího česneku-",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "7229",
+      "name": "Krémová česnečka",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "3686",
+      "name": "Kroupová s knedlíčky",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "5162",
+      "name": "Krupicová s vejcem",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "5373",
+      "name": "Kukuřičná",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "3879",
+      "name": "Kulajda oběd",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "870",
+      "name": "Kulajda s hříbky a koprem S",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "3786",
+      "name": "Kulajda",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "7183",
+      "name": "Kuřecí vývar s celestýnskými nudlemi",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "2044",
+      "name": "Kuřecí vývar s játrovými knedlíčky",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "6833",
+      "name": "Kuřecí vývar s kapáním a zeleninou",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "3576",
+      "name": "Kuřecí vývar s nudlemi a zeleninou",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "6455",
+      "name": "kuřecí vývar velik",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "2734",
+      "name": "Květáková",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "2413",
+      "name": "Kyselo s houbami",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "3532",
+      "name": "Lilkový krém",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "7083",
+      "name": "Mexická fazolová",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "3980",
+      "name": "Minestrone",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "3802",
+      "name": "Mrkvový krém",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "3087",
+      "name": "Oukrop",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "5144",
+      "name": "Pastinákový krém s grilovanou šunkou-n",
+      "heaviness": "light",
+      "season": "summer"
+    },
+    {
+      "id": "2417",
+      "name": "Pikantní kuřecí vývar",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "2160",
+      "name": "Polévka kozí brada",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "3454",
+      "name": "Polévka ze šneků a uzeného jazyka",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "6561",
+      "name": "Porková -",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "6560",
+      "name": "Porková",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "3573",
+      "name": "Rajčatová",
+      "heaviness": "light",
+      "season": "summer"
+    },
+    {
+      "id": "4633",
+      "name": "Sopa de maiz",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "2805",
+      "name": "Špenátový krém",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "10309",
+      "name": "špenátový krém",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "3296",
+      "name": "Tuřínová - s",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "5490",
+      "name": "Uzená se zeleninou a masem",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "2613",
+      "name": "Zeleninový krém s vejcem",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "3280",
+      "name": "Zelná bílá - s",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "8129",
+      "name": "zelnačka s masem",
+      "heaviness": "light",
+      "season": "all-year"
+    },
+    {
+      "id": "3762",
+      "name": "Žampionový krém",
+      "heaviness": "light",
+      "season": "all-year"
+    }
+  ]
+}
