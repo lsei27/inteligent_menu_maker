@@ -13,10 +13,16 @@ export async function POST(request: Request) {
     const buffer = await generateMenuPDF(menu);
     const weekStart = menu.days[0]?.date ?? "menu";
     const filename = `menu-${weekStart}.pdf`;
-    return new NextResponse(new Uint8Array(buffer), {
+    const bytes = new Uint8Array(buffer);
+    const arrayBuffer = bytes.buffer.slice(
+      bytes.byteOffset,
+      bytes.byteOffset + bytes.byteLength
+    );
+    return new NextResponse(arrayBuffer, {
       headers: {
         "Content-Type": "application/pdf",
         "Content-Disposition": `attachment; filename="${filename}"`,
+        "Content-Length": String(bytes.byteLength),
       },
     });
   } catch {

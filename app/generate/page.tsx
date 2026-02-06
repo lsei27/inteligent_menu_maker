@@ -178,7 +178,14 @@ export default function GeneratePage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(menu),
       });
+      if (!pdfRes.ok) {
+        const err = await pdfRes.json().catch(() => ({}));
+        throw new Error(err.error ?? "Export PDF selhal");
+      }
       const blob = await pdfRes.blob();
+      if (blob.type !== "application/pdf") {
+        throw new Error("Server vrátil neplatná data místo PDF");
+      }
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
