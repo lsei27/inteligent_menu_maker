@@ -195,6 +195,11 @@ export default function GeneratePage() {
     return (
       <main className="min-h-screen bg-slate-50 p-8">
         <div className="mx-auto max-w-2xl text-center">
+          <img
+            src="/logo-s.svg"
+            alt="Sou100 logo"
+            className="mx-auto mb-6 h-20 w-auto"
+          />
           <h1 className="mb-6 text-2xl font-bold text-slate-800">
             Vygenerovat menu
           </h1>
@@ -235,13 +240,20 @@ export default function GeneratePage() {
   return (
     <main className="min-h-screen bg-slate-50 p-6">
       <div className="mx-auto max-w-4xl">
-        <div className="mb-6 flex items-center justify-between">
-          <Link href="/" className="text-amber-600 hover:underline">
-            ← Úvod
-          </Link>
-          <h1 className="text-xl font-bold text-slate-800">
-            Menu {menu!.week_start} – {menu!.week_end}
-          </h1>
+        <div className="mb-6 flex flex-col items-center">
+          <img
+            src="/logo-s.svg"
+            alt="Sou100 logo"
+            className="mb-4 h-16 w-auto"
+          />
+          <div className="flex w-full items-center justify-between">
+            <Link href="/" className="text-amber-600 hover:underline">
+              ← Úvod
+            </Link>
+            <h1 className="text-xl font-bold text-slate-800">
+              Menu {menu!.week_start} – {menu!.week_end}
+            </h1>
+          </div>
         </div>
 
         {error && (

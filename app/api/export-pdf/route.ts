@@ -10,7 +10,7 @@ export async function POST(request: Request) {
         { status: 400 }
       );
     }
-    const buffer = generateMenuPDF(menu);
+    const buffer = await generateMenuPDF(menu);
     const weekStart = menu.days[0]?.date ?? "menu";
     const filename = `menu-${weekStart}.pdf`;
     return new NextResponse(new Uint8Array(buffer), {

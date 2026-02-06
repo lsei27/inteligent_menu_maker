@@ -3,6 +3,11 @@ import Link from "next/link";
 export default function HomePage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center gap-8 bg-gradient-to-b from-slate-50 to-white p-8">
+      <img
+        src="/logo-s.svg"
+        alt="Sou100 logo"
+        className="h-24 w-auto"
+      />
       <h1 className="text-3xl font-bold text-slate-800">
         Generátor menu
       </h1>

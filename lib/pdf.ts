@@ -1,80 +1,91 @@
 /**
- * Generování PDF menu pomocí jspdf
+ * Generování PDF menu pomocí pdf-lib – podpora české diakritiky
  */
-import { jsPDF } from "jspdf";
+import { PDFDocument, rgb } from "pdf-lib";
 import type { GeneratedMenu } from "./types";
 
-const LINE_HEIGHT = 7;
-const MARGIN = 20;
-const PAGE_WIDTH = 210;
+const MM_TO_PT = 72 / 25.4;
+const LINE_HEIGHT = 7 * MM_TO_PT;
+const MARGIN = 20 * MM_TO_PT;
+const PAGE_WIDTH = 210 * MM_TO_PT;
+const PAGE_HEIGHT = 297 * MM_TO_PT;
 
-function addText(
-  doc: jsPDF,
-  text: string,
-  x: number,
-  y: number,
-  options?: { fontSize?: number; bold?: boolean }
-): number {
-  const fs = options?.fontSize ?? 10;
-  doc.setFontSize(fs);
-  doc.setFont("helvetica", options?.bold ? "bold" : "normal");
-  doc.text(text, x, y);
-  return y + LINE_HEIGHT;
+const DEJAVU_FONT_URL =
+  "https://unpkg.com/dejavu-fonts-ttf@2.37.3/ttf/DejaVuSans.ttf";
+
+async function getFont(pdfDoc: PDFDocument) {
+  const res = await fetch(DEJAVU_FONT_URL);
+  if (!res.ok) throw new Error("Nepodařilo se načíst font");
+  const bytes = new Uint8Array(await res.arrayBuffer());
+  return pdfDoc.embedFont(bytes);
 }
 
-export function generateMenuPDF(menu: GeneratedMenu): Buffer {
-  const doc = new jsPDF({ orientation: "portrait", unit: "mm", format: "a4" });
-  let y = MARGIN;
+export async function generateMenuPDF(menu: GeneratedMenu): Promise<Buffer> {
+  const pdfDoc = await PDFDocument.create();
+  const font = await getFont(pdfDoc);
+
+  let page = pdfDoc.addPage([PAGE_WIDTH, PAGE_HEIGHT]);
+  let y = PAGE_HEIGHT - MARGIN;
 
   const weekStart = menu.days[0]?.date ?? "";
   const weekEnd = menu.days[menu.days.length - 1]?.date ?? "";
 
-  addText(doc, "POLEDNÍ MENU", MARGIN, y, { fontSize: 16, bold: true });
-  y += LINE_HEIGHT + 2;
-  addText(doc, `${weekStart} - ${weekEnd}`, MARGIN, y, { fontSize: 12 });
-  y += LINE_HEIGHT + 6;
+  const drawText = (text: string, x: number, size = 10): void => {
+    page.drawText(text, {
+      x,
+      y,
+      size,
+      font,
+      color: rgb(0, 0, 0),
+    });
+    y -= LINE_HEIGHT;
+  };
 
-  doc.setDrawColor(0, 0, 0);
-  doc.line(MARGIN, y, PAGE_WIDTH - MARGIN, y);
-  y += 10;
+  const drawLine = (): void => {
+    page.drawLine({
+      start: { x: MARGIN, y },
+      end: { x: PAGE_WIDTH - MARGIN, y },
+      thickness: 0.5,
+      color: rgb(0, 0, 0),
+    });
+    y -= LINE_HEIGHT + 2;
+  };
+
+  drawText("POLEDNÍ MENU", MARGIN, 16);
+  y -= 2;
+  drawText(`${weekStart} - ${weekEnd}`, MARGIN, 12);
+  y -= 6;
+  drawLine();
+  y -= 10;
 
   for (const day of menu.days) {
-    addText(doc, `${day.day_name.toUpperCase()} ${day.date}`, MARGIN, y, {
-      fontSize: 12,
-      bold: true,
-    });
-    y += LINE_HEIGHT + 2;
-
-    doc.line(MARGIN, y, PAGE_WIDTH - MARGIN, y);
-    y += LINE_HEIGHT + 2;
-
-    addText(doc, `Polévka: ${day.soup.name}`, MARGIN, y);
-    y += LINE_HEIGHT + 2;
+    drawText(`${day.day_name.toUpperCase()} ${day.date}`, MARGIN, 12);
+    y -= 2;
+    drawLine();
+    y -= 2;
+    drawText(`Polévka: ${day.soup.name}`, MARGIN);
+    y -= 2;
 
     day.dishes.forEach((d, i) => {
-      addText(doc, `${i + 1}. ${d.name}`, MARGIN, y);
-      y += LINE_HEIGHT;
+      drawText(`${i + 1}. ${d.name}`, MARGIN);
     });
-    y += 8;
+    y -= 8;
 
-    if (y > 270) {
-      doc.addPage();
-      y = MARGIN;
+    if (y < MARGIN + 80) {
+      page = pdfDoc.addPage([PAGE_WIDTH, PAGE_HEIGHT]);
+      y = PAGE_HEIGHT - MARGIN;
     }
   }
 
-  y += 4;
-  doc.line(MARGIN, y, PAGE_WIDTH - MARGIN, y);
-  y += 10;
-  addText(doc, "⭐ TÝDENNÍ SPECIALITA ⭐", MARGIN, y, {
-    fontSize: 12,
-    bold: true,
-  });
-  y += LINE_HEIGHT + 2;
-  addText(doc, menu.specialty.name, MARGIN, y, { fontSize: 11 });
-  y += LINE_HEIGHT + 4;
-  doc.line(MARGIN, y, PAGE_WIDTH - MARGIN, y);
+  y -= 4;
+  drawLine();
+  y -= 10;
+  drawText("⭐ TÝDENNÍ SPECIALITA ⭐", MARGIN, 12);
+  y -= 2;
+  drawText(menu.specialty.name, MARGIN, 11);
+  y -= LINE_HEIGHT + 4;
+  drawLine();
 
-  const buffer = Buffer.from(doc.output("arraybuffer"));
-  return buffer;
+  const pdfBytes = await pdfDoc.save();
+  return Buffer.from(pdfBytes);
 }
