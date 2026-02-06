@@ -13,6 +13,7 @@
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
     "@supabase/supabase-js": "^2.95.2",
+    "dejavu-fonts-ttf": "^2.37.3",
     "next": "14.2.35",
     "pdf-lib": "^1.17.1",
     "react": "^18",

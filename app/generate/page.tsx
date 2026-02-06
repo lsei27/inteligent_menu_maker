@@ -148,7 +148,7 @@ export default function GeneratePage() {
   const handleApproveAndExport = async () => {
     if (!menu) return;
     try {
-      await fetch("/api/save-menu", {
+      const saveRes = await fetch("/api/save-menu", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -173,6 +173,10 @@ export default function GeneratePage() {
           })),
         }),
       });
+      if (!saveRes.ok) {
+        const err = await saveRes.json().catch(() => ({}));
+        throw new Error(err.error ?? "Uložení menu selhalo");
+      }
       const pdfRes = await fetch("/api/export-pdf", {
         method: "POST",
         headers: { "Content-Type": "application/json" },

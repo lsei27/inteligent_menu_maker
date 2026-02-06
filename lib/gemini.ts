@@ -65,41 +65,53 @@ function buildPrompt(
   return `Jsi asistent pro plánování poledního menu české restaurace.
 
 ## JAZYK
-Veškeré texty (reason, reasoning) piš VÝHRADNĚ v češtině. Žádná angličtina.
+Veškeré texty (reason, reasoning) piš VÝHRADNĚ v češtině.
 
 ## Vstupní data
 - Recepty (hlavní jídla): ${recipesJson}
 - Polévky: ${soupsJson}
 - Předpověď počasí (5 dní Po-Pá): ${weatherJson}
-- Historie jídel za posledních 6 týdnů (NEPOUŽÍVEJ): ${JSON.stringify(historyLast8Weeks)}
-- Historie specialit za posledních 8 týdnů (NEPOUŽÍVEJ): ${JSON.stringify(specialtyHistory)}
-- Aktuální sezóna: ${season}
+- Historie jídel 6 týdnů (NEPOUŽÍVEJ): ${JSON.stringify(historyLast8Weeks)}
+- Historie specialit 8 týdnů (NEPOUŽÍVEJ): ${JSON.stringify(specialtyHistory)}
+- Sezóna: ${season}
 
-## Tvůj úkol
-Vygeneruj kompletní menu na pracovní týden (Po-Pá). Data weather mají datumy odpovídající dnům.
+## STRUKTURA TÝDNE – NEZBYTNÁ
+- **1× týdenní specialita** – stejná každý den, NEZAPOČÍTÁVÁ se do 5 hlavních jídel (je MIMO ně)
+- **Každý den:** 1 polévka + 5 hlavních jídel (celkem 5 různých receptů na den)
 
-## Struktura každého dne
-- 1× polévka (z soups)
-- 5× hlavní jídlo (z recipes)
+## POVINNÁ PRAVIDLA – PORUŠENÍ = NEVALIDNÍ MENU
 
-## Povinná pravidla - STRIKTNĚ DODRŽUJ
-1. VEGETARIÁNSKÉ: Každý den MINIMÁLNĚ 1 jídlo s protein="vege". DŮLEŽITÉ: Označuj jako vege POUZE jídla BEZ masa. Čočka/uzení, fazole se slaninou, polévky s uzeným = NENÍ vege. Řízek (holandský, vídeňský) = maso, NENÍ vege. Respektuj hodnotu protein z vstupních dat receptů.
-2. DIVERZITA: V 5 jídlech jednoho dne MAXIMÁLNĚ 2× stejný typ proteinu
-3. BEZ OPAKOVÁNÍ: Žádné jídlo (hlavní ani polévka) se NESMÍ opakovat v týdnu
-4. HISTORIE 6 TÝDNŮ: NEPOUŽÍVEJ jídla z historyLast8Weeks
-5. HISTORIE SPECIALIT 8 TÝDNŮ: NEPOUŽÍVEJ speciality z specialtyHistory
-6. PRODEJNOST (sales_count): Preferuj jídla s vyšším sales_count (prodalo se více porcí). Vyhýbej se jídlům se sales_count=0 nebo velmi nízkým (<10) – ty se téměř neprodávala. Při stejném splnění pravidel vyber populárnější jídla.
+### 1. VEGETARIÁNSKÉ
+Každý den MINIMÁLNĚ 1 jídlo s protein="vege". Používej POUZE protein z vstupních dat receptů. Čočka s uzením, fazole se slaninou = NENÍ vege.
 
-## Pravidla počasí → těžkost
+### 2. DIVERZITA MASA (KRITICKÉ)
+V 5 hlavních jídlech jednoho dne MAXIMÁLNĚ 2× stejný typ proteinu.
+Typy: vege, chicken, pork, beef, fish, mixed – KAŽDÝ se počítá!
+- Špatně: 3× mixed nebo 3× chicken
+- Dobře: max 2× chicken, max 2× pork, 1× vege (např.)
+
+### 3. BEZ OPAKOVÁNÍ V TÝDNU
+Žádné jídlo (hlavní ani polévka) se NESMÍ opakovat v rámci celého týdne. Každý recept max 1×.
+Zároveň: v jednom dni NEVKLÁDEJ velmi podobná jídla (např. "Tortilla s kuřecím" + "tortilla s kuřecími stripsy" = zakázáno).
+
+### 4. HISTORIE 6 TÝDNŮ
+NEPOUŽÍVEJ jídla z historyLast8Weeks (ani polévky, ani hlavní).
+
+### 5. HISTORIE SPECIALIT 8 TÝDNŮ
+Specialita NESMÍ být v specialtyHistory.
+
+### 6. PRODEJNOST (sales_count) – SEKUNDÁRNÍ
+Pravidla 1–5 mají ABSOLUTNÍ přednost. Prodejnost použij JEN při výběru mezi jídly, která STEJNĚ splňují pravidla – preferuj vyšší sales_count, vyhýbej se sales_count=0 nebo <10.
+
+## Počasí → těžkost
 - Nad 25°C: 60% light, 30% medium, 10% heavy
 - 15-25°C: 30% light, 50% medium, 20% heavy
 - 5-15°C: 20% light, 40% medium, 40% heavy
 - Pod 5°C: 10% light, 30% medium, 60% heavy
 
 ## Týdenní specialita
-- Vyber z recipes jídlo s margin > 80 (price - cost/1.12)
-- Sezónně relevantní
-- Nesmí být v specialtyHistory
+- 1 jídlo z recipes s margin > 80
+- Sezónně relevantní, nesmí být v specialtyHistory
 
 ## Výstup - POUZE validní JSON:
 {
@@ -121,7 +133,7 @@ Vygeneruj kompletní menu na pracovní týden (Po-Pá). Data weather mají datum
   ]
 }
 
-ODPOVĚZ POUZE VALIDNÍM JSON OBJEKTEM.`;
+PŘED ODESLÁNÍM OVĚŘ: (a) každý den max 2× stejný protein v 5 jídlech, (b) žádné jídlo se neopakuje v týdnu, (c) žádná podobná jídla v jednom dni. ODPOVĚZ POUZE VALIDNÍM JSON OBJEKTEM.`;
 }
 
 function parseGeminiResponse(text: string): GeneratedMenu {

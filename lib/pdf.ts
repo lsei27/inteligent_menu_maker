@@ -1,6 +1,8 @@
 /**
  * Generování PDF menu pomocí pdf-lib – podpora české diakritiky
  */
+import { readFileSync } from "fs";
+import { join } from "path";
 import { PDFDocument, rgb } from "pdf-lib";
 import type { GeneratedMenu } from "./types";
 
@@ -10,13 +12,15 @@ const MARGIN = 20 * MM_TO_PT;
 const PAGE_WIDTH = 210 * MM_TO_PT;
 const PAGE_HEIGHT = 297 * MM_TO_PT;
 
-const DEJAVU_FONT_URL =
-  "https://unpkg.com/dejavu-fonts-ttf@2.37.3/ttf/DejaVuSans.ttf";
-
 async function getFont(pdfDoc: PDFDocument) {
-  const res = await fetch(DEJAVU_FONT_URL);
-  if (!res.ok) throw new Error("Nepodařilo se načíst font");
-  const bytes = new Uint8Array(await res.arrayBuffer());
+  const fontPath = join(
+    process.cwd(),
+    "node_modules",
+    "dejavu-fonts-ttf",
+    "ttf",
+    "DejaVuSans.ttf"
+  );
+  const bytes = new Uint8Array(readFileSync(fontPath));
   return pdfDoc.embedFont(bytes);
 }
 
