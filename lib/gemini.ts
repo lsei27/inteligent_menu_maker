@@ -5,6 +5,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import type { GeneratedMenu } from "./types";
 import type { MasterRecipe, MasterSoup } from "./types";
 import type { WeatherDay } from "./types";
+import { getDishBase } from "./dish-base";
 import { getSeasonFromMonth } from "./utils";
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY ?? "");
@@ -28,15 +29,19 @@ function buildPrompt(
   const month = new Date().getMonth();
   const season = getSeasonFromMonth(month);
   const recipesJson = JSON.stringify(
-    recipes.map((r) => ({
-      id: r.id,
-      name: r.name,
-      heaviness: r.heaviness,
-      protein: r.protein,
-      season: r.season,
-      margin: r.price && r.cost ? r.price - r.cost / 1.12 : 0,
-      sales_count: r.sales_count ?? 0,
-    })),
+    recipes.map((r) => {
+      const dish_base = getDishBase(r.name);
+      return {
+        id: r.id,
+        name: r.name,
+        heaviness: r.heaviness,
+        protein: r.protein,
+        season: r.season,
+        margin: r.price && r.cost ? r.price - r.cost / 1.12 : 0,
+        sales_count: r.sales_count ?? 0,
+        dish_base: dish_base ?? undefined,
+      };
+    }),
     null,
     0
   );
@@ -95,6 +100,14 @@ Typy: vege, chicken, pork, beef, fish, mixed – KAŽDÝ se počítá!
 Žádné jídlo (hlavní ani polévka) se NESMÍ opakovat v rámci celého týdne. Každý recept max 1×.
 Zároveň: v jednom dni NEVKLÁDEJ velmi podobná jídla (např. "Tortilla s kuřecím" + "tortilla s kuřecími stripsy" = zakázáno).
 
+### 3b. STEJNÁ BÁZE JÍDLA MAX 1× ZA TÝDEN (KRITICKÉ)
+Recepty mají pole dish_base (noky, penne, spaghetti, risotto, tortilla, burger...). V celém týdnu (5 dní × 5 jídel) smí každá báze být POUZE 1×.
+- noky/gnocchi: "bramborové noky sýrová", "bram.noky s bolonskou", "Bramborové noky s špenátem" = všechny mají dish_base "noky" → vyber POUZE JEDEN v celém týdnu
+- risotto: pohankové, kroupové, zeleninové = všechny "risotto" → max 1×
+- tortilla, burger, kuskus, halušky, pirohy: max 1× za týden
+- těstoviny (penne, spaghetti, tagliatelle): střídej tvary, stejný tvar max 2× týdně
+Z historických dat restaurace: noky/gnocchi se nikdy neobjevují vícekrát v týdnu.
+
 ### 4. HISTORIE 6 TÝDNŮ
 NEPOUŽÍVEJ jídla z historyLast8Weeks (ani polévky, ani hlavní).
 
@@ -134,7 +147,7 @@ Pravidla 1–5 mají ABSOLUTNÍ přednost. Prodejnost použij JEN při výběru 
   ]
 }
 
-PŘED ODESLÁNÍM OVĚŘ: (a) každý den max 2× stejný protein, max 1× mixed, (b) žádné jídlo se neopakuje v týdnu, (c) žádná podobná jídla v jednom dni, (d) protein z vstupních dat – např. "Risotto se sýrem Feta" je vege. ODPOVĚZ POUZE VALIDNÍM JSON OBJEKTEM.`;
+PŘED ODESLÁNÍM OVĚŘ: (a) každý den max 2× stejný protein, max 1× mixed, (b) žádné jídlo se neopakuje v týdnu, (c) žádná podobná jídla v jednom dni, (d) každá dish_base (noky, risotto, tortilla...) max 1× v celém týdnu, (e) protein z vstupních dat – např. "Risotto se sýrem Feta" je vege. ODPOVĚZ POUZE VALIDNÍM JSON OBJEKTEM.`;
 }
 
 function parseGeminiResponse(text: string): GeneratedMenu {

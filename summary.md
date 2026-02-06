@@ -28,6 +28,7 @@ Fullstack webová aplikace pro generování týdenního poledního menu restaura
   HistoryDayCard.tsx    # Karta dne v historii (read/edit)
 /lib
   gemini.ts             # Gemini client a prompt
+  dish-base.ts          # Určení báze jídla (noky, risotto...) pro pravidla rozmanitosti
   weather.ts            # Open-Meteo API
   pdf.ts                # Generování PDF (jspdf)
   utils.ts              # Pomocné funkce
