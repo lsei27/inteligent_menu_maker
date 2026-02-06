@@ -4,6 +4,7 @@
 import { readFileSync, existsSync } from "fs";
 import { join } from "path";
 import { PDFDocument, rgb } from "pdf-lib";
+import fontkit from "@pdf-lib/fontkit";
 import type { GeneratedMenu } from "./types";
 
 const MM_TO_PT = 72 / 25.4;
@@ -38,6 +39,7 @@ async function loadAndEmbedFont(pdfDoc: PDFDocument) {
 
 export async function generateMenuPDF(menu: GeneratedMenu): Promise<Buffer> {
   const pdfDoc = await PDFDocument.create();
+  pdfDoc.registerFontkit(fontkit);
   const font = await loadAndEmbedFont(pdfDoc);
 
   let page = pdfDoc.addPage([PAGE_WIDTH, PAGE_HEIGHT]);
