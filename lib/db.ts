@@ -82,15 +82,16 @@ export async function updateMenuEntry(
 
 export async function deleteMenuEntry(id: string): Promise<boolean> {
   if (!supabase) return false;
-  const { error } = await supabase
+  const { data, error } = await supabase
     .from("menu_history")
     .delete()
-    .eq("id", id);
+    .eq("id", id)
+    .select("id");
   if (error) {
     console.error("[db] deleteMenuEntry:", error);
     return false;
   }
-  return true;
+  return (data?.length ?? 0) > 0;
 }
 
 export async function getCustomDishes(): Promise<CustomDish[]> {

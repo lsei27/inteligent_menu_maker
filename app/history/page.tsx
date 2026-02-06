@@ -118,12 +118,11 @@ export default function HistoryPage() {
     setDeleting(id);
     setError(null);
     try {
-      const res = await fetch(`/api/delete-menu?id=${id}`, {
-        method: "DELETE",
-      });
+      const url = `/api/delete-menu?id=${encodeURIComponent(id)}`;
+      const res = await fetch(url, { method: "DELETE" });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Chyba");
-      loadHistory();
+      setHistory((prev) => prev.filter((e) => e.id !== id));
       if (expandedId === id) setExpandedId(null);
       if (editId === id) cancelEdit();
     } catch (e) {

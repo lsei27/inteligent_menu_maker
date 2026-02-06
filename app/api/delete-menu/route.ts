@@ -3,6 +3,7 @@ import { deleteMenuEntry } from "@/lib/db";
 import { supabase } from "@/lib/supabase";
 
 export async function DELETE(request: Request) {
+  console.log("[delete-menu] DELETE request received");
   try {
     if (!supabase) {
       return NextResponse.json(
@@ -22,8 +23,9 @@ export async function DELETE(request: Request) {
     }
 
     const ok = await deleteMenuEntry(id);
+    console.log("[delete-menu] deleteMenuEntry result:", ok, "id:", id);
     if (!ok) {
-      console.error("[delete-menu] deleteMenuEntry vrátilo false pro id:", id);
+      console.error("[delete-menu] Žádný řádek nebyl smazán, id:", id);
       return NextResponse.json(
         { error: "Nepodařilo se smazat záznam." },
         { status: 500 }
